@@ -1,0 +1,56 @@
+How to Create Programs 15
+This is a goal which should be aimed at by everyone who writes programs.
+The SPARKS language is rich enough so that one can create a good
+looking program by applying some simple rules of style.
+
+(i) Every procedure should carefully specify its input and output
+
+variables.
+
+(ii) The meaning of variables should be defined.
+
+(iii) The flow of the program should generally be forward except
+
+for normal looping or unavoidable instances.
+
+(iv) Indentation rules should be established and followed so that
+
+computational units of program text can more easily be identified.
+
+(v) Documentation should be short, but meaningful. Avoid sentences
+
+like “‘iis increased by one.”
+
+(vi) Use subroutines where appropriate.
+
+See the book The Elements of Programming Style by Kernighan and
+Plauger for more examples of good rules of programming.
+
+1.33. HOW TO CREATE PROGRAMS
+
+Now that you have moved beyond the first course in computer science,
+you should be capable of developing your programs using something
+better than the seat-of-the-pants method. This method uses the philoso-
+phy: write something down and then try to get it working. Surprisingly,
+this method is in wide use today, with the result that an average
+programmer on an average job turns out only between five to ten lines
+of correct code per day. We hope your productivity will be greater.
+But to improve requires that you apply some discipline to the process
+of creating programs. To understand this process better, we consider
+it as broken up into five phases: requirements, design, analysis, coding,
+and verification,
+
+(i) Requirements. Make sure you understand the information you are
+given (the input) and what results you are to produce (the output). Try
+to write down a rigorous description of the input and output which -
+covers all cases.
+
+You are now ready to proceed to the design phase. Designing an
+algorithm is a task which can be done independently of the programming
+language you eventually plan to use. In fact, this is desirable because
+it means you can postpone questions concerning how to represent your
+data and what a particular statement looks like and concentrate on the
+order of processing.
+
+(ii) Design. You may have several data objects (such as a maze, a
+polynomial, or a list of names). For each object there will be some

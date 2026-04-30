@@ -1,0 +1,41 @@
+Overview 7
+“scessyCctnDDTERO SUCESUCCSUC RO
+which by line 8 equals
+qpoc(SucoBUCASUCCEUCEIZERO”
+Of course, this is not the way to implement addition. In practice We
+use bit strings which is data structure that is usually provided on
+our computers. But however the ADD operation is implemented, it
+must obey these rules. Hopefully, this motivates the following definition.
+Definition: A data structure is a set of domains 2, @ designated domain
+deZ, a set of functions § and a set of axioms wg. The triple (2 oe)
+denotes the data structure d and it will usually be abbreviated by writing
+d.
+In the previous example
+
+d = natno, g = {natno, poolean}
+$F = NERO ,ISZERO SUCC.AD™
+a = {lines 7 thru 10 of the structure NATNO}
+
+The set of axioms describe the semantics of the operations. The form
+
+: in which we choose to write the axioms is important. Our goal here
+is to write the axioms in a representation independent way. Then, we
+discuss ways of implementing the functions using 3 conventional
+programming janguage-
+
+An implementation of a data structure d is a mapping from d to a
+set of other data structures e. This mapping specifies how every object
+of d is to be represented by the objects of ¢@. Secondly, it requires
+that every function of d must be written using the functions of the
+implementing data structures ¢- Thus we Say that integers are represented
+by bit strings, poolean is represented by zero and one, an array 1S
+
+represented by a set of consecutive words in memory-
+
+In current parlance the triple (BF wat) is referred to as an abstract
+data type. It is called abstract precisely pecause the axioms do not
+imply a form of representation. Another Way of viewing the implementa-
+tion of a data structure is that it is the process of refining an abstract
+data type until all of the operations are expressible in terms of directly
+executable functions. But at the first stage a data structure should be
+designed so that we know what it does, put not necessarily how it

@@ -1,0 +1,35 @@
+Sparks 11
+viewpoint, we should not take it to mean that this is the way to program.
+On the contrary, the more expressive our languages are, the more we
+can accomplish easily. So we will provide other statements such as
+a second iteration statement, the repeat-until,
+
+repeat
+
+S
+
+until cond
+
+which has the meaning
+LS] -<Renp tae
+true
+
+In contrast to the while statement, the repeat-until guarantees that
+the statements of S will be executed at least once. Another iteration
+statement is
+
+loop
+
+S
+
+forever
+which has the meaning
+As it stands, this describes an infinite loop! However, we assume that
+this statement is used in conjunction with some test within S$ which
+will cause an exit. One way of exiting such a loop is by using a
+
+go to label
+statement which transfers control to ‘‘label.’’ Label may be anywhere
+in the procedure. A more restricted form of the go to is the command
+
+exit

@@ -1,0 +1,30 @@
+12 Introduction
+which will cause a transfer of control to the first statement after the
+innermost loop which contains it. This looping statement may be a
+while, repeat, for or a loop-forever. exit can be used either conditionally
+or unconditionally, for instance
+loop
+Ss,
+if cond then exit
+S,
+forever
+which will execute as
+true
+The last statement for iteration is called the for-lop, which has the
+form
+for vble — start to finish by increment do
+S
+end
+Vble is a variable, while start, finish and increment are arithmetic
+expressions. A variable or a constant is a simple form of an expression.
+The clause ‘‘by increment’’ is optional and taken as +1 if it does not
+occur. We can write the meaning of this statement in SPARKS as
+vble — start
+fin — finish
+incr — increment
+while (vble — fin) * incr <0 do
+S
+vble — vble + incr
+end
+Another statement within SPARKS is the case, which allows one
+to distinguish easily between several alternatives without using multiple

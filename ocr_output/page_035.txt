@@ -1,0 +1,36 @@
+22 Introduction
+procedure BINSRCH (A,n,x,j)
+1 lower — 1; upper<n
+2 while lower = upper do
+3 mid — |(lower + upper) /2!
+4 case
+5 :x > A(mid): lower — mid + 1
+6 > x < A(mid): upper <— mid — 1
+7 : dse: j <— mid; return
+8 end
+9 end
+10 J<0
+end
+To prove this program correct we make assertions about the relationship
+between variables before and after the while loop of steps 2-9. As
+we enter this loop and as long as x is not found the following holds:
+lower = upper and A(lower) = x < A(upper) and SORTED(A,n)
+Now, if control passes out of the while loop past line 9 then we know
+the condition of line 2 is false ;
+lower > upper.
+This, combined with the above assertion implies that x is not present.
+Unfortunately a complete proof takes us beyond our scope but for
+those who wish to pursue program proving they should consult our
+references at the end of this chapter. An analysis of the computing
+time for BINSRCH is carried out in section 7.1.
+Recursion
+We have tried to emphasize the need to structure a program to make
+it easier to achieve the goals of readability and correctness. Actually
+one of the most useful syntactical features for accomplishing this is
+the procedure. Given a set of instructions which perform a logical
+operation, perhaps a very complex and long operation, they can be
+grouped together as a procedure. The procedure name and its parameters
+are viewed as a new instruction which can be used in other programs.
+Given the input-output specifications of a procedure, we don’t even
+have to know how the task is accomplished, only that it is available.
+This view of the procedure implies that it is invoked, executed and

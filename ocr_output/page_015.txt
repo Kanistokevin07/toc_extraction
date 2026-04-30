@@ -1,0 +1,51 @@
+2 Introduction
+
+We see that in this definition of computer science, ‘‘algorithm’’ is
+a fundamental notion. Thus it deserves a precise definition. The dictio-
+nary’s definition ‘‘any mechanical or recursive computational procedure’’
+is not entirely satisfying since these terms are not basic enough.
+Definition: An algorithm is a finite set of instructions which, if followed,
+accomplish a particular task. In addition every algorithm must satisfy
+the following criteria:
+
+(i) input: there are zero or more quantities which are externally
+
+supplied;
+
+(ii) output: at least one quantity is produced;
+
+(iii) definiteness: each instruction must be clear and unambiguous;
+
+(iv) finiteness: if we trace out the instructions of an algorithm, then
+for all cases the algorithm will terminate after a finite number
+of steps;
+
+(v) effectiveness: every instruction must be sufficiently basic that
+it can in principle be carried out by a person using only pencil
+and paper. It is not enough that each operation be definite as
+in (iii), but it must also be feasible.
+
+In formal computer science, one distinguishes between an algorithm,
+and a program. A program does not necessarily satisfy condition (iv).
+One important example of such a program for a computer is its operating
+system which never terminates (except for system crashes) but continues
+in a wait loop until more jobs are entered. In this book we will deal
+strictly with programs that always terminate. Hence, we will use these
+terms interchangeably.
+
+An algorithm can be described in many ways. A natural language
+such as English can be used but we must be very careful that the resulting
+instructions are definite (condition iii), An improvement over English
+is to couple its use with a graphical form of notation such as flowcharts.
+This form places each processing step in a “‘box’’ and uses arrows
+to indicate the next step. Different shaped boxes stand for different
+kinds of operations. All this can be seen in figure 1.1 where a flowchart
+is given for obtaining a Coca-Cola from a vending machine. The point ,
+is that algorithms can be devised for many common activities.
+
+Have you studied the flowchart? Then you probably have realized
+that it isn’t an algorithm at all! Which properties does it lack?
+
+Returning to our earlier definition of computer science, we find it
+extremely unsatisfying as it gives us no insight as to why the computer
+is revolutionizing our society nor why it has made us re-examine certain

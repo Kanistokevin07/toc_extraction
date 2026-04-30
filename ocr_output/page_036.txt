@@ -1,0 +1,39 @@
+How to Create Programs 23
+returns control to the appropriate place in the calling procedure. What
+this fails to stress is the fact that procedures may call themselves (direct
+recursion) before they are done or they may call other procedures which
+again invoke the calling procedure (indirect recursion). These recursive
+mechanisms are extremely powerful, but even more importantly, many
+times they can express an otherwise complex process very clearly. For
+these reasons we introduce recursion here.
+
+Most students of computer science view recursion’ as a somewhat
+mystical technique which only is useful for some very special class
+of problems (such as computing factorials or Ackermann’s function).
+This is unfortunate because any program that can be written using
+assignment, the if-then-else statement and the while statement can also
+be written using assignment, if-then-else and recursion. Of course, this
+does not say that the resulting program will necessarily be easier to
+understand. However, there are many instances when this will be the
+case. When is recursion an appropriate mechanism for algorithm exposi-
+tion? One instance is when the problem itself is recursively defined.
+Factorial fits this category, also binomial coefficients where
+
+( n ) n!
+m m!i(n~-—m)!
+can be recursively computed by the formula
+(Cn) a)
+= +
+m m m—]
+Another example is reversing a character string, S = ‘x, ... x, where
+SUBSTRING (S,i,j) is a function which returns the string x, ... x;
+for appropriately defined i and j and S || T stands for concatenation
+of two strings (as in PL/I). Then the operation REVERSE is easily
+described recursively as
+procedure REVERSE(S)
+n< LENGTH(S)
+if n = 1 then return (S)
+else return (RE VERSE(SUBSTRING(S,2,n))
+|| SUBSTRING(S, 1,1))
+end REVERSE
+If this looks too simple let us develop a more complex recursive

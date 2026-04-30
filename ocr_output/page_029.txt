@@ -1,0 +1,47 @@
+16 Introduction
+
+basic operations to perform on it (such as print the maze, add two
+polynomials, or find a name in the list). Assume that these operations
+already exist in the form of procedures and write an algorithm which
+solves the problem according to the requirements. Use a notation which
+is natural to the way you wish to describe the order of processing.
+
+(iii) Analysis. Can you think of another algorithm? If so, write it
+down. Next, try to compare these two methods. It may already be
+possible to tell if one will be more desirable than the other. If you
+can’t distinguish between the two, choose one to work on for now
+and we will return to the second version later.
+
+(iv) Refinement and coding. You must now choose representations
+for your data objects (a maze as a two dimensional array of zeros
+and ones, a polynomial as a one dimensional array of degree and
+coefficients, a list of names possibly as an array) and write algorithms
+for each of the operations on these objects. The order in which you
+do this may be crucial, because once you choose a representation, the
+resulting algorithms may be inefficient. Modern pedagogy suggests that
+all processing which is independent of the data representation be written
+out first. By postponing the choice of how the data is stored we can
+try to isolate what operations depend upon the choice of data representa-
+tion. You should consider alternatives, note them down and review
+them later. Finally you produce a complete version of your first program.
+
+It is often at this point that one realizes that a much better program
+could have been built. Perhaps you should have chosen the second
+design alternative or perhaps you have spoken to a friend who has
+done it better. This happens to industrial programmers as well. If you
+have been careful about keeping track of your previous work it may
+not be too difficult to make changes. One of the criteria of a good
+design is that it can absorb changes relatively easily. It is usually hard
+to decide whether to sacrifice this first attempt and begin again or just
+continue to get the first version working. Different situations call for
+different decisions, but we suggest you eliminate the idea of working
+on both at the same time. If you do decide to scrap your work and
+begin again, you can take comfort in the fact that it will probably be
+easier the second time. In fact you may save as much debugging time
+later on by doing a new version now. This is a phenomenon which
+has been observed in practice.
+
+The graph in figure 1.3 shows the time it took for the same group
+to build 3 FORTRAN compilers (A, B and C). For each compiler there
+is the time they estimated it would take them and the time it actually
+took. For each subsequent compiler their estimates became closer to

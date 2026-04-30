@@ -1,0 +1,46 @@
+Preface vii
+automatic features cover up the implementation details whose mastery
+remains a cornerstone of the course.
+
+The basic audience for this book is either the computer science major
+with at least one year of courses or a beginning graduate student with
+prior training in a field other than computer science. This book contains
+more than one semester’s worth of material and several of its chapters
+may be skipped without harm. The following are two scenarios which
+may help in deciding what chapters should be covered.
+
+The first author has used this book with sophomores who have had
+one semester of PL/I and one semester of assembly language. He would
+cover chapters one through five skipping sections 2.2, 2.3, 3.2, 4.7,
+4.11, and 5.8. Then, in whatever time was left chapter seven on sorting
+was covered. The second author has taught the material to juniors who
+have had one quarter of FORTRAN or PASCAL and two quarters of
+introductory courses which themselves contain a potpourri of topics.
+In the first quarter’s data structure course, chapters one through three
+are lightly covered and chapters four through six are completely covered.
+The second quarter starts with chapter seven which provides an excellent
+survey of the techniques which were covered in the previous quarter.
+Then the material on external sorting, symbol tables and files is sufficient
+for the remaining time. Note that the material in chapter 2 is largely
+mathematical and can be skipped without harm.
+
+The paradigm of class presentation that we have used is to begin
+each new topic with a problem, usually chosen from the computer science
+arena. Once defined, a high level design of its solution is made and
+each data structure is axiomatically specified. A tentative analysis is
+done to determine which operations are critical. Implementations of
+the data structures are then given followed by an attempt at verifying
+that the representation and specifications are consistent. The finished
+algorithm in the book is examined followed by an argument concerning
+its correctness. Then an analysis is done by determining the relevant
+parameters and applying some straightforward rules to obtain the correct
+computing time formula.
+
+In summary, as instructors we have tried to emphasize the following
+notions to our students: (i) the ability to define at a sufficiently high
+level of abstraction the data structures and algorithms that are needed:
+(ii) the ability to devise alternative implementations of a data structure;
+(iii) the ability to synthesize a correct algorithm; and (iv) the ability
+to analyze the computing time of the resultant program. In addition
+there are two underlying currents which, though not explicitly emphasized
+are covered throughout. The first is the notion of writing nicely structured

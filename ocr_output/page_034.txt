@@ -1,0 +1,50 @@
+How to Create Programs 21
+of the restrictions on lower and upper limits of DO-LOOPS.
+
+Let us develop another program. We assume that we have n = 1
+distinct integers which are already sorted and stored in the array A(1:n).
+Our task is to determine if the integer x is present and if so to return
+j such that x = A(j); otherwise return j = 0. By making use of the
+fact that the set is sorted we conceive of the following efficient method:
+
+“‘let A(mid) be the middle element. There are three possibilities. Either x
+
+< A(mid) in which case x can only occur as A(1) to A(mid — 1); or x
+
+> A(mid) in which case x can only occur as A(mid + 1) to A(n); or x
+
+= A(mid) in which case set j to mid and return. Continue in this way by
+
+keeping two pointers, lower and upper, to indicate the range of elements
+not yet tested.”’
+At this point you might try the method out on some sample numbers.
+This method is referred to as binary search. Note how at each stage
+the number of elements in the remaining set is decreased by about
+one half. We can now attempt a version using SPARKS pseudo code.
+procedure BINSRCH(A,n,x,j)
+
+initialize lower and upper
+
+while there are more elements to check do
+
+let A(mid) be the middle element
+case
+
+: x > A(mid): set lower to mid + |
+:x< A(mid): set upper to mid —1
+: else: found
+
+end
+
+end
+
+not found
+end BINSRCH
+The above is not the only way we might write this program. For instance
+we could replace the while loop by a repeat-until statement with the
+same English condition. In fact there are at least six different binary search
+programs that can be produced which are all correct. There are many more
+that we might produce which would be incorrect. Part of the freedom comes
+from the initialization step. Whichever version we choose, we must be sure
+we understand the relationships between the variables. Below is one
+complete version.

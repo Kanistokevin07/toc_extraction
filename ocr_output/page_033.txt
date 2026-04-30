@@ -1,0 +1,40 @@
+20 Introduction
+Theorem: Procedure SORT(A,n) correctly sorts a set of n = 1 distinct
+integers, the result remains in A(i:n) such that A(1) < A(2) < ...
+< A(n).
+Proof: If nis one then by the definition of the SPARKS for statement,
+lines 3 thru 5 are not executed. Thus i = j = 1 and the interchange
+at line 6 has no effect. Suppose that the program works correctly for
+n— 1 inputs and SORT(A,n) is invoked, When i=1 the loop of lines
+3 thru 5 is executed for k = 2,3, ....zn. A value for jis determined such
+that A(j) < A(k), k = 2, ...,nusing common properties of integers. Either
+j = 1 or A(j) < A(1) so at line 6 A(j) has been determined as the
+smallest of n elements. It is interchanged with A(1). The program now
+continues with i = 2, ...,n but this is equivalent to sorting n — 1 integers
+which we assumed to work correctly. Since A(1) is never changed again,
+the algorithm correctly sorts all n integers. im)
+We observe at this point that the upper limit of the for-loop in line
+1 can be changed to n — 1 without damaging the correctness of the
+algorithm.
+From the standpoint of readability we can ask if this program is good.
+Is there a more concise way of describing this algorithm which will
+still be as easy to comprehend? Substituting while statements for the
+for loops doesn’t significantly change anything. Also, extra initialization
+and increment statements would be required. We might consider a
+FORTRAN version using the ANSI language standard
+IF (N. LE. 1) GO TO 100
+NMI =N-1
+DO 101 1 = 1, NM1
+J=I
+JPi=J+1
+DO 102 K = JPI, N
+IF (A(K).LT.AG)) J=K
+102 CONTINUE
+T=AD
+A(I) = AV)
+AQ) = T
+101 CONTINUE
+100 CONTINUE
+FORTRAN forces us to clutter up our algorithms with extra statements.
+The test for N = | is necessary because FORTRAN DO-LOOPS always
+insist on executing once. Variables NMI and JP1 are needed because

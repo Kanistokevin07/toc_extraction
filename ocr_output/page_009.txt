@@ -1,0 +1,39 @@
+vili Preface
+
+programs. For all of the programs contained herein we have tried our
+best to structure them appropriately. We hope that by reading programs
+with good style the students will pick up good writing habits. A nudge
+on the instructor’s part will also prove useful. The second current is
+the choice of examples. We have tried to use those examples which
+prove a point well, have application to computer programming, and
+exhibit some of the brightest accomplishments in computer science.
+
+At the close of each chapter there is a list of references and selected
+readings. These are not meant to be exhaustive. They are a subset
+of those books and papers that we found to be the most useful. Otherwise,
+they are either historically significant or develop the material in the
+text somewhat further.
+
+Many people have contributed their time and energy to improve this
+book. For this we would like to thank them. We wish to thank Arvind [sic}, T.
+Gonzalez, L. Landweber, J. Misra, and D. Wilczynski, who used the book in
+their own classes and gave us detailed reactions. Thanks are also due to A.
+Agrawal, M. Cohen, A. Howells, R. Istre, D. Ledbetter, D. Musser and to our
+students in CS 202, CSci 5121 and 5122 who provided many insights. For
+administrative and secretarial help we thank M. Eul, G. Lum, J. Matheson,
+S. Moody, K. Pendleton, and L. Templet. To the referees for their pungent
+yet favorable comments we thank S. Gerhart, T. Standish, and J. Ullman.
+Finally, we would like to thank our institutions, the University of Southern
+California and the University of Minnesota, for encouraging in every way
+our. efforts to produce this book.
+
+Ellis Horowitz
+Sartaj Sahni
+Preface to the Ninth Printing
+
+We would like to acknowledge collectively all of the individuals who
+have sent us comments and corrections since the book first appeared.
+For this printing we have made many corrections and improvements.
+October 1981 Ellis Horowitz
+
+Sartaj Sahni

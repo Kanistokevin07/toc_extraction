@@ -1,0 +1,22 @@
+Copyright © 1982 Computer Science Press, Inc.
+Copyright © 1976 Computer Science Press, Inc.
+Printed in the United States of America
+All rights reserved. No part of this work may be reproduced, transmit-
+ted, or stored in any form or by any means, without the prior written
+consent of the Publisher.
+Computer Science Press, Inc.
+Il Taft Court
+Rockville, Maryland 20850
+Printing 9 10 11 12 13 86 85 84 83 82 Year
+This work is the result of the combined efforts of the authors. Their
+names have been listed in alphabetical order with no implication that one
+is senior and the other junior.
+Library of Congress Cataloging in Publication Data
+Horowitz, Ellis.
+Fundamentals of data structures.
+(Computer software engineering series)
+Includes bibliographies and indexes.
+1. Data structures (Computer science) I. Sahni, Sartaj, joint
+author. II. Title.
+QA76.D35H67 001.642 76-15250
+ISBN 0-914894-20'K

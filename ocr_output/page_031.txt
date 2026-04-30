@@ -1,0 +1,47 @@
+18 Introduction
+
+number of times a branch was taken, (iii) the smallest and largest values
+of all variables. As a minimal requirement, the test data you construct
+should force every statement to execute and every condition to assume
+the value true and false at least once.
+
+One thing you have forgotten to do is to document. But why bother
+to document until the program is entirely finished and correct? Because
+for each procedure you made some assumptions about its input and
+output. If you have written more than a few procedures, then you
+have already begun to forget what those assumptions were. If you note
+them down with the code, the problem of getting the procedures to
+work together will be easier to solve. The larger the software, the more
+crucial is the need for documentation.
+
+The previous discussion applies to the construction of a single procedure
+as well as to the writing of a large software system. Let us concentrate
+for a while on the question of developing a single procedure which
+solves a specific task. This shifts our emphasis away from the management
+and integration of the various procedures to the disciplined formulation
+of a single, reasonably small and well-defined task. The design process
+consists essentially of taking a proposed solution and successively refining
+it until an executable program is achieved. The initial solution may
+be expressed in English or some form of mathematical notation. At
+this level the formulation is said to be abstract because it contains no
+details regarding how the objects will be represented and manipulated
+in a computer. If possible the designer attempts to partition the solution
+into logical subtasks. Each subtask is similarly decomposed until all
+tasks are expressed within a programming language. This method of
+design is called the top-down approach. Inversely, the designer might
+choose to solve different parts of the problem directly in his programming
+language and then combine these pieces into a complete program. This
+is referred to as the bottom-up approach. Experience suggests that the
+top-down approach should be followed when creating a program.
+However, in practice it is not necessary to unswervingly follow the
+method. A look ahead to problems which may arise later is often useful.
+
+Underlying all of these strategies is the assumption that a language
+exists for adequately describing the processing of data at several abstract
+levels. For this purpose we use the language SPARKS coupled with
+carefully chosen English narrative. Such an algorithm might be called
+pseudo-SPARKS. Let us examine two examples of top-down program
+development.
+
+Suppose we devise a program for sorting a set of n = | distinct integers.
+One of the simplest solutions is given by the following

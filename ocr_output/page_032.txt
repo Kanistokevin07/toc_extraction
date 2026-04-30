@@ -1,0 +1,35 @@
+How to Create Programs 19
+‘from those integers which remain unsorted, find the smallest and place
+it next in the sorted list’’
+This statement is sufficient to construct a sorting program. However,
+several issues are not fully specified such as where and how the integers
+are initially stored and where the result is to be placed. One solution
+is to store the values in an array in such a way that the i-th integer
+is stored in the i-th array position, A(i) 1 < i n. We are now ready
+to give a second refinement of the solution:
+for i<1tondo
+examine A(i) to A(n) and suppose the
+smallest integer is at A(j); then inter-
+change A(i) and A(j).
+end
+Note how we have begun to use SPARKS pseudo-code. There now
+remains two clearly defined subtasks: (i) to find the minimum integer
+and (ii) to interchange it with A(i). This latter problem can be solved
+by the code
+t~ Ali); AVI) Al); Ae t
+The first subtask can be solved by assuming the minimumis A (i), checking
+A(i) with A(i + 1), A(i + 2), ... and whenever a smaller element is
+found, regarding it as the new minimum. Eventually A(n) is compared
+to the current minimum and we are done. Putting all these observations
+together we get
+procedure SORT(A,n)
+1 for i— 1 to ndo
+2 jei
+3 for k<j+1tondo
+4 if A(k) < A(j) then j<— k
+5 end
+6 t—A(i); AV) — A); AG <t
+7 end
+end SORT
+The obvious question to ask at this point is: ‘‘does this program work
+correctly?”

@@ -1,0 +1,29 @@
+Sparks 9
+try to attach a meaning. Several cute ideas have been suggested, such
+as
+
+Structured Programming: A Reasonably Komplete Set
+or
+
+Smart Programmers Are Required To Know SPARKS.
+
+SPARKS contains facilities to manipulate numbers, boolean values
+and characters. The way to assign values is by the assignment statement
+variable <— expression.
+In addition to the assignment statement, SPARKS includes statements
+for conditional testing, iteration, input-output, etc. Several such state-
+ments can be combined on a single line if they are separated by a
+semi-colon. Expressions can be either arithmetic, boolean or of character
+type. In the boolean case there can be only one of two values,
+true or false.
+In order to produce these values, the logical operators
+and, or, not
+are provided, plus the relational operators
+<,%,5,=,4,2,4,>
+A conditional statement has the form
+if cond then S, if cond then S,
+or
+else S,
+
+where cond is a boolean expression and S,, S, are arbitrary groups
+of SPARKS statements. If S, or S, contains more than one statement,

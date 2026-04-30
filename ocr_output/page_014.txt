@@ -1,0 +1,40 @@
+Chapter 1
+
+INTRODUCTION
+
+1.1 OVERVIEW
+
+The field of computer science is so new that one feels obliged to furnish
+adefinition before proceeding with this book. One often quoted definition
+views computer science as the study of algorithms. This study en-
+compasses four distinct areas:
+
+(i) machines for executing algorithms—this area includes everything
+from the smallest pocket calculator to the largest general purpose digital
+computer. The goal is to study various forms of machine fabrication
+and organization so that algorithms can be effectively carried out.
+
+(ii) languages for describing algorithms—these languages can be placed
+on a continuum. At one end are the languages which are closest to
+the physical machine and at the other end are languages designed for
+sophisticated problem solving. One often distinguishes between two
+phases of this area: language design and translation. The first calls
+for methods for specifying the syntax and semantics of a language.
+The second requires a means for translation into a more basic set of
+commands.
+
+(iii) foundations of algorithms—here people ask and try to answer
+such questions as: is a particular task accomplishable by a computing
+device; or what is the minimum number of operations necessary for
+any algorithm which performs a certain function? Abstract models of
+computers are devised so that these properties can be studied.
+
+(iv) analysis of algorithms—whenever an algorithm can be specified
+it makes sense to wonder about its behavior. This was realized as far
+back as 1830 by Charles Babbage, the father of computers. An algorithm’s
+behavior pattern or performance profile is measured in terms of the
+computing time and space that are consumed while the algorithm is
+processing. Questions such as the worst and average time and how
+often they occur are typical.
+
+1

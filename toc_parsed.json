@@ -1,0 +1,1297 @@
+[
+  {
+    "number": "1.6",
+    "title": "Activities Covered by Software Project Management",
+    "page": 4,
+    "page_end": 110,
+    "subsections": []
+  },
+  {
+    "number": "1.9",
+    "title": "Project Charter",
+    "page": 111,
+    "page_end": 111,
+    "subsections": []
+  },
+  {
+    "number": "1.10",
+    "title": "Stakeholders",
+    "page": 112,
+    "page_end": 112,
+    "subsections": []
+  },
+  {
+    "number": "1.11",
+    "title": "Setting Objectives",
+    "page": 13,
+    "page_end": 13,
+    "subsections": []
+  },
+  {
+    "number": "1.12",
+    "title": "The Business Case",
+    "page": 14,
+    "page_end": 14,
+    "subsections": []
+  },
+  {
+    "number": "1.13",
+    "title": "Project Success and Failure",
+    "page": 15,
+    "page_end": 115,
+    "subsections": []
+  },
+  {
+    "number": "1.14",
+    "title": "Whatis Management?",
+    "page": 116,
+    "page_end": 116,
+    "subsections": []
+  },
+  {
+    "number": "1.15",
+    "title": "Management Control",
+    "page": 18,
+    "page_end": 20,
+    "subsections": []
+  },
+  {
+    "number": "1.16",
+    "title": "Project Management Life Cycle",
+    "page": 21,
+    "page_end": 24,
+    "subsections": []
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 25,
+    "page_end": 25
+  },
+  {
+    "number": null,
+    "title": "Annex I Contents List fora Project Plan",
+    "page": 25,
+    "page_end": 25
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 26,
+    "page_end": 30
+  },
+  {
+    "number": "2",
+    "title": "Project Evaluation and Programme Management",
+    "page": 31,
+    "page_end": 31,
+    "sections": [
+      {
+        "number": "2.2",
+        "title": "Business Case",
+        "page": 32,
+        "page_end": 34,
+        "subsections": []
+      },
+      {
+        "number": "2.4",
+        "title": "Evaluation of Individual Projects",
+        "page": 35,
+        "page_end": 36,
+        "subsections": []
+      },
+      {
+        "number": "2.5",
+        "title": "Cost—benefit Evaluation Techniques",
+        "page": 37,
+        "page_end": 42,
+        "subsections": []
+      },
+      {
+        "number": "2.6",
+        "title": "Risk Evaluation",
+        "page": 43,
+        "page_end": 46,
+        "subsections": []
+      },
+      {
+        "number": "2.8",
+        "title": "Managing the Allocation of Resources within Programmes",
+        "page": 47,
+        "page_end": 47,
+        "subsections": []
+      },
+      {
+        "number": "2.9",
+        "title": "Strategic Programme Management",
+        "page": 48,
+        "page_end": 48,
+        "subsections": []
+      },
+      {
+        "number": "2.10",
+        "title": "Creating a Programme",
+        "page": 48,
+        "page_end": 500,
+        "subsections": []
+      },
+      {
+        "number": "2.11",
+        "title": "Aids to Programme Management",
+        "page": 501,
+        "page_end": 501,
+        "subsections": []
+      },
+      {
+        "number": "2.12",
+        "title": "Some Reservations about Programme Management",
+        "page": 52,
+        "page_end": 52,
+        "subsections": []
+      },
+      {
+        "number": "2.13",
+        "title": "Benefits Management",
+        "page": 53,
+        "page_end": 53,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 54,
+    "page_end": 54
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 55,
+    "page_end": 57
+  },
+  {
+    "number": "3",
+    "title": "An Overview of Project Planning",
+    "page": 58,
+    "page_end": 59,
+    "sections": [
+      {
+        "number": "3.2",
+        "title": "Step 0: Select Project",
+        "page": 60,
+        "page_end": 63,
+        "subsections": []
+      },
+      {
+        "number": "3.4",
+        "title": "Step 2: Identify Project Infrastructure",
+        "page": 64,
+        "page_end": 65,
+        "subsections": []
+      },
+      {
+        "number": "3.5",
+        "title": "Step 3: Analyse Project Characteristics",
+        "page": 66,
+        "page_end": 67,
+        "subsections": []
+      },
+      {
+        "number": "3.6",
+        "title": "Step 4: Identify Project Products and Activities",
+        "page": 68,
+        "page_end": 72,
+        "subsections": []
+      },
+      {
+        "number": "3.7",
+        "title": "Step 5: Estimate Effort for Each Activity",
+        "page": 73,
+        "page_end": 73,
+        "subsections": []
+      },
+      {
+        "number": "3.8",
+        "title": "Step 6: Identify Activity Risks",
+        "page": 74,
+        "page_end": 74,
+        "subsections": []
+      },
+      {
+        "number": "3.9",
+        "title": "Step 7: Allocate Resources",
+        "page": 75,
+        "page_end": 76,
+        "subsections": []
+      },
+      {
+        "number": "3.10",
+        "title": "Step 8: Review/Publicize Plan",
+        "page": 77,
+        "page_end": 77,
+        "subsections": []
+      },
+      {
+        "number": "3.11",
+        "title": "Steps 9 and 10: Execute Plan/Lower Levels of Planning",
+        "page": 78,
+        "page_end": 78,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 78,
+    "page_end": 78
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 79,
+    "page_end": 80
+  },
+  {
+    "number": "4",
+    "title": "Selection of an Appropriate Project Approach",
+    "page": 81,
+    "page_end": 81,
+    "sections": [
+      {
+        "number": "4.1",
+        "title": "Introduction",
+        "page": 81,
+        "page_end": 82,
+        "subsections": []
+      },
+      {
+        "number": "4.2",
+        "title": "BuildorBuy?",
+        "page": 83,
+        "page_end": 83,
+        "subsections": []
+      },
+      {
+        "number": "4.3",
+        "title": "Choosing Methodologies and Technologies",
+        "page": 84,
+        "page_end": 87,
+        "subsections": []
+      },
+      {
+        "number": "4.4",
+        "title": "Software Processes and Process Models",
+        "page": 88,
+        "page_end": 88,
+        "subsections": []
+      },
+      {
+        "number": "4.5",
+        "title": "Choice of Process Models",
+        "page": 88,
+        "page_end": 88,
+        "subsections": []
+      },
+      {
+        "number": "4.6",
+        "title": "Structure versus Speed of Delivery",
+        "page": 88,
+        "page_end": 88,
+        "subsections": []
+      },
+      {
+        "number": "4.7",
+        "title": "The Waterfall Model",
+        "page": 89,
+        "page_end": 90,
+        "subsections": []
+      },
+      {
+        "number": "4.8",
+        "title": "The Spiral Model",
+        "page": 91,
+        "page_end": 91,
+        "subsections": []
+      },
+      {
+        "number": "4.9",
+        "title": "Software Prototyping",
+        "page": 92,
+        "page_end": 92,
+        "subsections": []
+      },
+      {
+        "number": "4.10",
+        "title": "Other Ways of Categorizing Prototypes",
+        "page": 93,
+        "page_end": 94,
+        "subsections": []
+      },
+      {
+        "number": "4.11",
+        "title": "Incremental Delivery",
+        "page": 95,
+        "page_end": 97,
+        "subsections": []
+      },
+      {
+        "number": "4.12",
+        "title": "Atern/Dynamic Systems Development Method",
+        "page": 98,
+        "page_end": 99,
+        "subsections": []
+      },
+      {
+        "number": "4.13",
+        "title": "Rapid Application Development",
+        "page": 100,
+        "page_end": 100,
+        "subsections": []
+      },
+      {
+        "number": "4.14",
+        "title": "Agile Methods",
+        "page": 101,
+        "page_end": 102,
+        "subsections": []
+      },
+      {
+        "number": "4.15",
+        "title": "Extreme Programming (XP)",
+        "page": 103,
+        "page_end": 105,
+        "subsections": []
+      },
+      {
+        "number": "4.16",
+        "title": "Scrum",
+        "page": 106,
+        "page_end": 107,
+        "subsections": []
+      },
+      {
+        "number": "4.17",
+        "title": "Lean Software Development",
+        "page": 108,
+        "page_end": 109,
+        "subsections": []
+      },
+      {
+        "number": "4.18",
+        "title": "Managing Iterative Processes",
+        "page": 110,
+        "page_end": 110,
+        "subsections": []
+      },
+      {
+        "number": "4.19",
+        "title": "Selecting the Most Appropriate Process Model",
+        "page": 111,
+        "page_end": 111,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 112,
+    "page_end": 112
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 112,
+    "page_end": 116
+  },
+  {
+    "number": "5",
+    "title": "Software Effort Estimation",
+    "page": 117,
+    "page_end": 117,
+    "sections": [
+      {
+        "number": "5.1",
+        "title": "Introduction",
+        "page": 117,
+        "page_end": 118,
+        "subsections": []
+      },
+      {
+        "number": "5.2",
+        "title": "Where are the Estimates Done?",
+        "page": 119,
+        "page_end": 119,
+        "subsections": []
+      },
+      {
+        "number": "5.3",
+        "title": "Problems with Over- and Under-Estimates",
+        "page": 120,
+        "page_end": 120,
+        "subsections": []
+      },
+      {
+        "number": "5.4",
+        "title": "The Basis for Software Estimating",
+        "page": 121,
+        "page_end": 123,
+        "subsections": []
+      },
+      {
+        "number": "5.5",
+        "title": "Software Effort Estimation Techniques",
+        "page": 124,
+        "page_end": 124,
+        "subsections": []
+      },
+      {
+        "number": "5.6",
+        "title": "Bottom-up Estimating",
+        "page": 125,
+        "page_end": 125,
+        "subsections": []
+      },
+      {
+        "number": "5.7",
+        "title": "The Top-down Approach and Parametric Models",
+        "page": 126,
+        "page_end": 127,
+        "subsections": []
+      },
+      {
+        "number": "5.8",
+        "title": "Expert Judgement",
+        "page": 128,
+        "page_end": 128,
+        "subsections": []
+      },
+      {
+        "number": "5.9",
+        "title": "Estimating by Analogy",
+        "page": 128,
+        "page_end": 128,
+        "subsections": []
+      },
+      {
+        "number": "5.10",
+        "title": "Albrecht Function Point Analysis",
+        "page": 129,
+        "page_end": 130,
+        "subsections": []
+      },
+      {
+        "number": "5.11",
+        "title": "Function Points Mark IT",
+        "page": 131,
+        "page_end": 132,
+        "subsections": []
+      },
+      {
+        "number": "1.2",
+        "title": "COSMIC Full Function Points",
+        "page": 133,
+        "page_end": 140,
+        "subsections": []
+      },
+      {
+        "number": "5.14",
+        "title": "CostEstimation",
+        "page": 141,
+        "page_end": 141,
+        "subsections": []
+      },
+      {
+        "number": "5.15",
+        "title": "Staffing Pattern",
+        "page": 141,
+        "page_end": 142,
+        "subsections": []
+      },
+      {
+        "number": "5.16",
+        "title": "Effect of Schedule Compression",
+        "page": 143,
+        "page_end": 143,
+        "subsections": []
+      },
+      {
+        "number": "5.17",
+        "title": "Capers Jones Estimating Rules of Thumb",
+        "page": 144,
+        "page_end": 145,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 146,
+    "page_end": 146
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 146,
+    "page_end": 154
+  },
+  {
+    "number": "6",
+    "title": "Activity Planning",
+    "page": 155,
+    "page_end": 155,
+    "sections": [
+      {
+        "number": "6.2",
+        "title": "Objectives of Activity Planning",
+        "page": 156,
+        "page_end": 156,
+        "subsections": []
+      },
+      {
+        "number": "6.4",
+        "title": "Project Schedules",
+        "page": 157,
+        "page_end": 157,
+        "subsections": []
+      },
+      {
+        "number": "6.5",
+        "title": "Projects and Activities",
+        "page": 157,
+        "page_end": 162,
+        "subsections": []
+      },
+      {
+        "number": "6.6",
+        "title": "Sequencing and Scheduling Activities",
+        "page": 163,
+        "page_end": 163,
+        "subsections": []
+      },
+      {
+        "number": "6.8",
+        "title": "Formulating a Network Model",
+        "page": 164,
+        "page_end": 1167,
+        "subsections": []
+      },
+      {
+        "number": "6.9",
+        "title": "Adding the Time Dimension",
+        "page": 1168,
+        "page_end": 1168,
+        "subsections": []
+      },
+      {
+        "number": "6.10",
+        "title": "The Forward Pass",
+        "page": 169,
+        "page_end": 170,
+        "subsections": []
+      },
+      {
+        "number": "6.11",
+        "title": "Backward Pass",
+        "page": 171,
+        "page_end": 171,
+        "subsections": []
+      },
+      {
+        "number": "6.12",
+        "title": "Identifying the Critical Path",
+        "page": 172,
+        "page_end": 173,
+        "subsections": []
+      },
+      {
+        "number": "6.13",
+        "title": "Activity Float",
+        "page": 174,
+        "page_end": 174,
+        "subsections": []
+      },
+      {
+        "number": "6.14",
+        "title": "Shortening the Project Duration",
+        "page": 174,
+        "page_end": 174,
+        "subsections": []
+      },
+      {
+        "number": "6.15",
+        "title": "Identifying Critical Activities",
+        "page": 175,
+        "page_end": 1174,
+        "subsections": []
+      },
+      {
+        "number": "6.16",
+        "title": "Activity-on-Arrow Networks",
+        "page": 1175,
+        "page_end": 1175,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 183,
+    "page_end": 183
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 183,
+    "page_end": 187
+  },
+  {
+    "number": "7",
+    "title": "Risk Management",
+    "page": null,
+    "page_end": null,
+    "sections": [
+      {
+        "number": "7.1",
+        "title": "Introduction",
+        "page": 188,
+        "page_end": 188,
+        "subsections": []
+      },
+      {
+        "number": "7.2",
+        "title": "Risk",
+        "page": 189,
+        "page_end": 189,
+        "subsections": []
+      },
+      {
+        "number": "7.3",
+        "title": "Categories of Risk",
+        "page": 190,
+        "page_end": 191,
+        "subsections": []
+      },
+      {
+        "number": "7.4",
+        "title": "Risk Management Approaches",
+        "page": 192,
+        "page_end": 192,
+        "subsections": []
+      },
+      {
+        "number": "7.6",
+        "title": "Risk Identification",
+        "page": 193,
+        "page_end": 1196,
+        "subsections": []
+      },
+      {
+        "number": "7.8",
+        "title": "Risk Planning",
+        "page": 1197,
+        "page_end": 1197,
+        "subsections": []
+      },
+      {
+        "number": "7.9",
+        "title": "Risk Management",
+        "page": 199,
+        "page_end": 199,
+        "subsections": []
+      },
+      {
+        "number": "7.10",
+        "title": "Evaluating Risks to the Schedule",
+        "page": 200,
+        "page_end": 201,
+        "subsections": []
+      },
+      {
+        "number": "7.11",
+        "title": "Boehm’s Top 10 Risks and Countet Measures",
+        "page": 202,
+        "page_end": 207,
+        "subsections": []
+      },
+      {
+        "number": "7.13",
+        "title": "Monte Carlo Simulation",
+        "page": 208,
+        "page_end": 208,
+        "subsections": []
+      },
+      {
+        "number": "7.14",
+        "title": "Critical Chain Concepts",
+        "page": 209,
+        "page_end": 213,
+        "subsections": []
+      },
+      {
+        "number": "8.1",
+        "title": "Introduction",
+        "page": 219,
+        "page_end": 219,
+        "subsections": []
+      },
+      {
+        "number": "8.2",
+        "title": "Nature of Resources",
+        "page": 220,
+        "page_end": 220,
+        "subsections": []
+      },
+      {
+        "number": "8.3",
+        "title": "Identifying Resource Requirements",
+        "page": 221,
+        "page_end": 223,
+        "subsections": []
+      },
+      {
+        "number": "8.4",
+        "title": "Scheduling Resources",
+        "page": 224,
+        "page_end": 227,
+        "subsections": []
+      },
+      {
+        "number": "8.5",
+        "title": "Creating Critical Paths",
+        "page": 228,
+        "page_end": 228,
+        "subsections": []
+      },
+      {
+        "number": "8.6",
+        "title": "Counting the Cost",
+        "page": 228,
+        "page_end": 2320,
+        "subsections": []
+      },
+      {
+        "number": "8.9",
+        "title": "CostSchedules",
+        "page": 2321,
+        "page_end": 2321,
+        "subsections": []
+      },
+      {
+        "number": "8.10",
+        "title": "Scheduling Sequence",
+        "page": 233,
+        "page_end": 234,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 214,
+    "page_end": 214
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 215,
+    "page_end": 218
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 235,
+    "page_end": 235
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 235,
+    "page_end": 737
+  },
+  {
+    "number": "9",
+    "title": "Monitoring and Control",
+    "page": 738,
+    "page_end": 738,
+    "sections": [
+      {
+        "number": "9.1",
+        "title": "Introduction",
+        "page": 238,
+        "page_end": 243,
+        "subsections": []
+      },
+      {
+        "number": "9.4",
+        "title": "Review",
+        "page": 244,
+        "page_end": 246,
+        "subsections": []
+      },
+      {
+        "number": "9.5",
+        "title": "Visualizing Progress",
+        "page": 247,
+        "page_end": 249,
+        "subsections": []
+      },
+      {
+        "number": "9.6",
+        "title": "Cost Monitoring",
+        "page": 250,
+        "page_end": 250,
+        "subsections": []
+      },
+      {
+        "number": "9.7",
+        "title": "Earned Value Analysis",
+        "page": 251,
+        "page_end": 255,
+        "subsections": []
+      },
+      {
+        "number": "9.8",
+        "title": "Prioritizing Monitoring",
+        "page": 256,
+        "page_end": 256,
+        "subsections": []
+      },
+      {
+        "number": "9.9",
+        "title": "Getting the Project Back to Target",
+        "page": 257,
+        "page_end": 258,
+        "subsections": []
+      },
+      {
+        "number": "9.10",
+        "title": "Change Control",
+        "page": 259,
+        "page_end": 260,
+        "subsections": []
+      },
+      {
+        "number": "9.11",
+        "title": "Software Configuration Management (SCM)",
+        "page": 261,
+        "page_end": 266,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 267,
+    "page_end": 267
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 267,
+    "page_end": 269
+  },
+  {
+    "number": "10",
+    "title": "Managing Contracts",
+    "page": null,
+    "page_end": null,
+    "sections": [
+      {
+        "number": "10.1",
+        "title": "Introduction",
+        "page": 270,
+        "page_end": 275,
+        "subsections": []
+      },
+      {
+        "number": "10.3",
+        "title": "Stages in Contract Placement",
+        "page": 276,
+        "page_end": 279,
+        "subsections": []
+      },
+      {
+        "number": "10.4",
+        "title": "Typical Terms of a Contract",
+        "page": 280,
+        "page_end": 282,
+        "subsections": []
+      },
+      {
+        "number": "10.5",
+        "title": "Contract Management",
+        "page": 283,
+        "page_end": 283,
+        "subsections": []
+      },
+      {
+        "number": "10.6",
+        "title": "Acceptance",
+        "page": 283,
+        "page_end": 283,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 284,
+    "page_end": 284
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 284,
+    "page_end": 285
+  },
+  {
+    "number": "11",
+    "title": "Managing People in Software Environments",
+    "page": 286,
+    "page_end": 286,
+    "sections": [
+      {
+        "number": "11.1",
+        "title": "Introduction",
+        "page": 286,
+        "page_end": 287,
+        "subsections": []
+      },
+      {
+        "number": "11.2",
+        "title": "Understanding Behaviour",
+        "page": 288,
+        "page_end": 288,
+        "subsections": []
+      },
+      {
+        "number": "11.3",
+        "title": "Organizational Behaviour: A Background",
+        "page": 289,
+        "page_end": 289,
+        "subsections": []
+      },
+      {
+        "number": "11.4",
+        "title": "Selecting the Right Person for the Job",
+        "page": 290,
+        "page_end": 291,
+        "subsections": []
+      },
+      {
+        "number": "11.5",
+        "title": "Instruction in the Best Methods",
+        "page": 292,
+        "page_end": 292,
+        "subsections": []
+      },
+      {
+        "number": "11.6",
+        "title": "Motivation",
+        "page": 292,
+        "page_end": 295,
+        "subsections": []
+      },
+      {
+        "number": "11.8",
+        "title": "Stress",
+        "page": 296,
+        "page_end": 296,
+        "subsections": []
+      },
+      {
+        "number": "11.9",
+        "title": "Stress Management",
+        "page": 297,
+        "page_end": 297,
+        "subsections": []
+      },
+      {
+        "number": "11.10",
+        "title": "Health and Safety",
+        "page": 297,
+        "page_end": 297,
+        "subsections": []
+      },
+      {
+        "number": "11.11",
+        "title": "Some Ethical and Professional Concerns",
+        "page": 298,
+        "page_end": 299,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 300,
+    "page_end": 300
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 300,
+    "page_end": 302
+  },
+  {
+    "number": "12",
+    "title": "Working in Teams",
+    "page": 303,
+    "page_end": 303,
+    "sections": [
+      {
+        "number": "12.1",
+        "title": "Introduction",
+        "page": 303,
+        "page_end": 303,
+        "subsections": []
+      },
+      {
+        "number": "12.2",
+        "title": "BecomingaTeam",
+        "page": 304,
+        "page_end": 306,
+        "subsections": []
+      },
+      {
+        "number": "12.3",
+        "title": "Decision Making",
+        "page": 307,
+        "page_end": 311,
+        "subsections": []
+      },
+      {
+        "number": "12.4",
+        "title": "Organization and Team Structures",
+        "page": 312,
+        "page_end": 317,
+        "subsections": []
+      },
+      {
+        "number": "12.5",
+        "title": "Coordination Dependencies",
+        "page": 318,
+        "page_end": 318,
+        "subsections": []
+      },
+      {
+        "number": "12.6",
+        "title": "Dispersed and Virtual Teams",
+        "page": 319,
+        "page_end": 320,
+        "subsections": []
+      },
+      {
+        "number": "12.7",
+        "title": "Communication Genres",
+        "page": 321,
+        "page_end": 322,
+        "subsections": []
+      },
+      {
+        "number": "12.8",
+        "title": "Communication Plans",
+        "page": 323,
+        "page_end": 323,
+        "subsections": []
+      },
+      {
+        "number": "12.9",
+        "title": "Leadership",
+        "page": 323,
+        "page_end": 324,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 325,
+    "page_end": 325
+  },
+  {
+    "number": null,
+    "title": "Further Exercises",
+    "page": 326,
+    "page_end": 326
+  },
+  {
+    "number": "13",
+    "title": "Software Quality",
+    "page": 327,
+    "page_end": 327,
+    "sections": [
+      {
+        "number": "13.2",
+        "title": "The Place of Software Quality in Project Planning",
+        "page": 328,
+        "page_end": 328,
+        "subsections": []
+      },
+      {
+        "number": "13.3",
+        "title": "Importance of Software Quality",
+        "page": 329,
+        "page_end": 329,
+        "subsections": []
+      },
+      {
+        "number": "13.4",
+        "title": "Defining Software Quality",
+        "page": 329,
+        "page_end": 330,
+        "subsections": []
+      },
+      {
+        "number": "13.5",
+        "title": "Software Quality Models",
+        "page": 331,
+        "page_end": 338,
+        "subsections": []
+      },
+      {
+        "number": "13.7",
+        "title": "Product and Process Metrics",
+        "page": 339,
+        "page_end": 339,
+        "subsections": []
+      },
+      {
+        "number": "13.8",
+        "title": "Product versus Process Quality Management",
+        "page": 339,
+        "page_end": 340,
+        "subsections": []
+      },
+      {
+        "number": "13.9",
+        "title": "Quality Management Systems",
+        "page": 341,
+        "page_end": 342,
+        "subsections": []
+      },
+      {
+        "number": "13.10",
+        "title": "Process Capability Models",
+        "page": 343,
+        "page_end": 352,
+        "subsections": []
+      },
+      {
+        "number": "13.11",
+        "title": "Techniques to Help Enhance Software Quality",
+        "page": 353,
+        "page_end": 356,
+        "subsections": []
+      },
+      {
+        "number": "13.12",
+        "title": "Testing",
+        "page": 357,
+        "page_end": 362,
+        "subsections": []
+      },
+      {
+        "number": "13.13",
+        "title": "Software Reliability",
+        "page": 363,
+        "page_end": 366,
+        "subsections": []
+      },
+      {
+        "number": "13.14",
+        "title": "Quality Plans",
+        "page": 367,
+        "page_end": 367,
+        "subsections": []
+      },
+      {
+        "number": "14.1",
+        "title": "Introduction",
+        "page": 374,
+        "page_end": 374,
+        "subsections": []
+      },
+      {
+        "number": "14.2",
+        "title": "Reasons for Project Closure",
+        "page": 375,
+        "page_end": 376,
+        "subsections": []
+      },
+      {
+        "number": "14.3",
+        "title": "Project Closure Process",
+        "page": 377,
+        "page_end": 377,
+        "subsections": []
+      },
+      {
+        "number": "14.4",
+        "title": "Performing a Financial Closure",
+        "page": 378,
+        "page_end": 379,
+        "subsections": []
+      },
+      {
+        "number": "14.5",
+        "title": "Project Closeout Report",
+        "page": 380,
+        "page_end": 380,
+        "subsections": []
+      }
+    ]
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 368,
+    "page_end": 373
+  },
+  {
+    "number": null,
+    "title": "Conclusion",
+    "page": 381,
+    "page_end": 381
+  },
+  {
+    "number": null,
+    "title": "Exercise",
+    "page": 382,
+    "page_end": 382
+  },
+  {
+    "number": null,
+    "title": "Appendix A: PRINCE2—An Overview",
+    "page": 383,
+    "page_end": 393
+  },
+  {
+    "number": null,
+    "title": "Appendix B: Project Management Tools",
+    "page": 394,
+    "page_end": 396
+  },
+  {
+    "number": null,
+    "title": "Appendix C: Answer Pointers",
+    "page": 397,
+    "page_end": null
+  },
+  {
+    "number": null,
+    "title": "Index dd()",
+    "page": null,
+    "page_end": null
+  }
+]

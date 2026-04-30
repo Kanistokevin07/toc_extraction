@@ -1,0 +1,25 @@
+10 Introduction
+these will be enclosed in square brackets. Brackets must be used to show
+how each else corresponds to one if. The meaning of this statement is
+given by the flow charts:
+or
+
+We will assume that conditional expressions are evaluated in ‘‘short
+circuit’? mode; given the boolean expression (cond1 or cond2), if cond]
+is true then cond2 is not evaluated; or, given (condi and cond2), if
+cond] is false then cond2 is not evaluated.
+
+To accomplish iteration, several statements are available. One of them
+iS
+
+while cond do
+S
+end
+where cond is as before, S is as S, before and the meaning is given
+by
+<p
+false
+
+It is well known that all ‘‘proper’’ programs can be written using only
+the assignment, conditional and while statements. This result was obtained
+by Bohm and Jacopini. Though this is very interesting from a theoretical

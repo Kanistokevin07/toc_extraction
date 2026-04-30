@@ -1,0 +1,56 @@
+Contents xi
+
+7.4 How Fast Can We Sort? ..............2.--.2.-. 350
+
+7.5 2-Way Merge Sort ...........2.02-02042222. 352
+
+7.6 Heap Sort .......0.2. 2... 0202 eee ee ee ee ee 357
+
+7.7 Sorting on Several Keys .................... 359
+
+7.8 Practical Considerations for Internal Sorting ......... 368
+References and Selected Readings ............... 377
+Exercises 2... ee ee ee ee ee ee es BB
+
+CHAPTER 8 EXTERNAL SORTING ;
+
+8.1 Storage Devices... ......0..0. 02.6020 200.2.24 . 382
+8.1.1 Magnetic Tapes ...........-.2.+224. +. 382
+8.1.2 Disk Storage... .................... 386
+
+8.2 Sorting With Disks ............-.......... 388
+8.2.1 K-Way Merging ..................0 4. 392
+8.2.2 Buffer Handling for Parallel Operation. ....... . 397
+8.2.3. Run Generation ..................... 406
+
+8.3 Sorting with Tapes ..............-2-6-+2-.2.-. 407
+8.3.1 Balanced Merge Sorts. ................. 411
+8.3.2 Polyphase Merge ...........-.-2.++.4..+. 415
+
+; 8.3.3. Sorting with Fewer Than 3 Tapes............ 418
+References and Selected Readings ............... 419
+Exercises 2... ee ee ee ee ANY
+
+CHAPTER 9 SYMBOL TABLES
+
+9.1 Static Tree Tables ...........0.2.2. 2.020064 4 423
+
+9.2 Dynamic Tree Tables ...............2.+64+. 438
+
+9.3. Hash Tables... 2... 2.2.0... 2 eee eee eee ee ee 456
+9.3.1 Hashing Functions ..................4.+ 458
+9.3.2 Overflow Handling .........,.....2.2....+. 462
+9.3.3 Theoretical Evaluation of Overflow
+
+Techniques ....... 2.2.2.0 0 eee eee ee es 469
+References and Selected Readings ............... 471
+Exercises 2... ee ee ee ee ee 473
+
+‘CHAPTER 10 FILES
+
+10.1 Files, Queries and Sequential Organizations.......... 478
+
+10.2 Index Techniques ............-2.-026.464.2. 2. + 485
+10.2.1 Cylinder-Surface Indexing ............... 486
+10.2.2 Hashed Indexes ...........-..-..2..2... 491
+10.2.3 Tree Indexing—B-Trees ................ 496

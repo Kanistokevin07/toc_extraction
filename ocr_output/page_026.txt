@@ -1,0 +1,24 @@
+Sparks 13
+if-then-else statements, It has the form
+case
+: cond1: S,
+:cond2: S,
+:condn: S,
+: else: S,,,
+end
+where the S,, 1 = i = n+ 1 are groups of SPARKS statements.
+The semantics is easily described by the following flowchart:
+alse false fal
+true true
+The else clause is optional.
+A complete SPARKS procedure has the form
+procedure NAME (parameter list)
+S
+end
+A procedure can be used as a function by using the statement
+return (expr)
+where the value of expr is delivered as the value of the procedure.
+The expr may be omitted in which case a return is made to the calling
+procedure. The execution of an end at the end of procedure implies a
+return. A procedure may be invoked by using a call statement
+call NAME (parameter list)
