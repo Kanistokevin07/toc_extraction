@@ -1,0 +1,45 @@
+https://abdullahsurat! github lo/bsclt
+Introduction to Software Project Management 11
+The type of development work being handled by 4 company can have an impact on its profitability, For
+example, a company that has developed a generic software product usually gets an uninterrupted stream of
+revenue over several years. However, outsourced projects fetch only one time revenue to any company.
+Objective-driven development
+Projects may be distinguished by whether their aim is to produce a product or to meet * Service level agree.
+certain objectives. ments are becoming
+increasingly important
+A project might be to create a product, the details of which have been specified by —_a3 organizations -
+the client. The client has the responsibility for justifying the product. On the other  fonvamt oul finclions
+hand, the project requirement might be to meet certain objectives which could be met _guppliers.
+in a number of ways. An organization might have a problem and ask a specialist to ————___——_e
+recommend a solution.
+Many software projects have two stages. First is an objective-driven project resulting in recommendations.
+This might identify the need for a new software system. The next stageis a project actually to create the
+software product. This is useful where the technical work is being done by an external group and the user
+needs are unclear at the outset. The external group can produce a preliminary design at a fixed fee. If the
+design is acceptable the developers can then quote a price for the second, implementation, stage based on an
+agreed requirement.
+=
+Exercise 1.6 ee
+——_—_———
+Would the project, to implement an independent payroll system at the Brightmouth College described
+in Exercise 1.2, above, be an objective-driven project or a product-driven project?
+__in Exercise 1.4, above, oe nee
+<
+1.9 Project Charter
+Project,charter is an important high-leve] document that authorizes the starting of a project and use of the
+required resources. Besides, it outlines the project objectives, deliverables and the Tesources required. It also
+documents the aspects that are out of scope, and identifies the main stakeholders, their roles and responsi-
+bilities, A project charter document is usually developed for all types of projects, irrespective of whether it
+is an in-house project or a project undertaken on behalf of some customers. The project charter is signed and
+issued by a member of the top management of the company who also takes up the role of the sponsor of the
+project. The project sponsor champions the project, monitors the progress of the project and provides regular
+feedback to the project manager, and helps in removing any obstacles that the project manager may find
+difficult to overcome. .
+The project manager for a project is usually appointed before the project charter is issued and undertakes
+to write the project charter in consultation with the project sponsor. The project charter serves as a guiding
+document for all activities concerning the project. This is a document that is not expected to change throughout
+the project life cycle, unlike other project management documents such as project plan, risk management plan
+and work breakdown structure (WBS). The latter documents are dynamic in nature and change several times
+during the project duration. The project manager refers to the project charter while planning the project.
+_ https://abdullahsuratl github.lo/bscit ee
+Scanned by CamScanner

@@ -1,0 +1,46 @@
+Overview §
+efficiently carried out. This implies a mastery of two techniques: the
+ability to devise alternative forms of data representation, and the ability
+to analyze the algorithm which operates on that structure. The pedagogical
+style we have chosen is to consider problems which have arisen often
+in computer applications. For each problem we will specify the data
+object or objects and what is to be accomplished. After we have decided
+upon a representation of the objects, we will give a complete algorithm
+and analyze its computing time. After reading through several of these
+examples you should be confident enough to try one on your own.
+
+There are several terms we need to define carefully before we proceed.
+These include data structure, data object, data type and data representa-
+tion. These four terms have no standard meaning in computer science
+circles, and they are often used interchangeably.
+
+A data type is a term which refers to the kinds of data that variables
+may “‘hold’’ in a programming language. In FORTRAN the data types
+are INTEGER, REAL, LOGICAL, COMPLEX, and DOUBLE PRECI-
+SION. In PL/I there is the data type CHARACTER. The fundamental
+data type of SNOBOL is the character string and in LISP it is the
+list (or S-expression). With every programming language there is a set
+of built-in data types. This means that the language allows variables
+to name data of that type and provides a set of operations which
+meaningfully manipulates these variables. Some data types are easy
+to provide because they are already built into the computer’s machine
+language instruction set. Integer and real arithmetic are examples of
+this. Other data types require considerably more effort to implement.
+In some languages, there are features which allow one to construct
+combinations of the built-in types. In COBOL and PL/I this feature
+is called a STRUCTURE while in PASCAL it is called a RECORD.
+However, it is not necessary to have such a mechanism. All of the
+data structures we will see here can be reasonably built within a
+conventional programming language.
+
+Data object is a term referring to a set of elements, say D.
+For example the data object integers refers to D = {0, +1, +2, ...}.
+The data object alphabetic character strings of length less than thirty
+one implies D= {"’,’A’,’B’, ...,'Z','AA’, ...}. Thus, D may be finite
+or infinite and if D is very large we may need to devise special ways
+of representing its elements in our computer.
+
+The notion of a data structure as distinguished from a data object
+is that we want to describe not only the set of objects, but the way
+they are related. Saying this another way, we want to describe the
+set of operations which may legally be applied to elements of the data

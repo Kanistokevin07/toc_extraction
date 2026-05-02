@@ -1,0 +1,46 @@
+—
+htts://abdullahsuratl github. lo/pscit
+Introduction to Software Project Management 5
+How do we
+Is it worth do It? |
+doing?
+Ficurt 1.2 The feasibility study/plan/execution cycle
+° 2
+the value of the benefits of the new system, will also have to be estimated, With “Chapter 2 explores
+a large system, the feasibility study could be a project in its own right with its cects of programme
+own plan. The study could be part of a strategic planning exercise examining 4 anagement.
+range of potential software developments. Sometimes an organization assesses —____c———e
+a programme of development made up of a number of projects.
+
+2. Planning If the feasibility study indicates that the prospective project appears >_> Grince2 method,
+viable, then project planning can start. For larger projects, we would not do all — which is described in
+our detailed planning at the beginning. We create an outline plan for the whole appanage lakes nis
+project and a detailed one for the first stage. Because we will have more detailed planning. Annex Ito
+and accurate project information after the earlier stages of the project have been _ this chapter has an
+completed, planning of the later stages is left to nearer their start. outline of the content
+
+. . ota plan.
+
+3. Project execution The project can now be executed. The execution of a project ae
+often contains design and implementation sub-phases. Students new to project
+planning often find that the boundary between design and planning can be hazy. Design is making
+decisions about the form of the products to be created. This could relate to the external appearance of
+the software, that is, the user interface, or the internal architecture. The plan details the activities to be
+carried out to create these products. Planning and design can be confused because at the most detailed
+level, planning decisions are influenced by design decisions. Thus a software product with five major
+components is likely to require five sets of activities to create them.
+
+Figure 1,3 shows the typical sequence of software development activities recom- Figure 1.3 suggests 1.3 suggests
+mended in the intemational standard ISO 12207. Some activities are concerned with _ that these stages must
+the system while others relate to software. The development of software will be only _be done strictly in
+one part of a project. Software could be developed, for example, for a project which  S@duenc®= We wil pee
+. ° : . . . in Chapter 4 that other,
+also requires the installation of an ICT infrastructure, the design of userjobs and user _ iterative approaches
+training. can be adopted.
+: . : . H , the actual
+e Requirements analysis starts with requirements elicitation or requirements activites listed here
+gathering which establishes what the potential users and their managers require Would still be done.
+of the new system. It could relate to a function — that the system should do —————————s
+something. It could be a quality requirement — how well the functions must work. An example of this
+httes://abdullahsuratl github. lo/pscit
+Scanned by CamScanner

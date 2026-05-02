@@ -1,0 +1,23 @@
+COMPUTER SOFTWARE ENGINEERING SERIES
+ELLIS HOROwITz, EDITOR
+University of Southern California
+WAYNE AMSBURY
+Structured BASIC and Beyond
+PETER CALINGAERT
+Assemblers, Compilers, and Program Translation
+M.S. CARBERRY, H. M. KHALIL, J. F, LEATHRUM, J.S, LEVy
+Foundations of Computer Science
+SHIMON EVEN
+Graph Algorithms
+Ww. FINDLAY and D, A. WATT
+Pascal: An Introduction to Methodical Programming
+ELLIS HOROWITZ and SARTAJ SAHNI
+Fundamentals of Computer Algorithms
+ELLIS HOROWITZ and SARTAJ SAHNI
+Fundamentals of Data Structures
+TOM LOGSDON
+Computers and Social Contro versy
+IRA POHL and ALAN SHAW
+The Nature of Computation: An Introduction to Computer Science
+JEFFREY D. ULLMAN
+Principles of Database Systems

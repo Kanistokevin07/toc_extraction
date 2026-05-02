@@ -2,48 +2,40 @@ import fitz  # pymupdf
 import os
 from PIL import Image
 
-def pdf_to_images(pdf_path, output_folder="pages", dpi=300):
-    """
-    Converts every page of a PDF into a PNG image.
-    Works for both scanned and digital PDFs.
-    
-    Args:
-        pdf_path     : path to your PDF file
-        output_folder: folder where page images will be saved
-        dpi          : resolution (300 is ideal for OCR)
-    
-    Returns:
-        list of saved image paths in order
-    """
-    # Create output folder if it doesn't exist
+def pdf_to_images(pdf_path, output_folder, dpi=300, max_pages=None):
+    import os
+    import fitz
+
+    output_folder = os.path.abspath(output_folder)
     os.makedirs(output_folder, exist_ok=True)
 
     doc = fitz.open(pdf_path)
     saved_paths = []
 
-    print(f"PDF loaded — {len(doc)} pages found")
+    total_pages = len(doc)
+    limit = min(max_pages, total_pages) if max_pages else total_pages
 
-    for page_num in range(len(doc)):
+    print(f"PDF loaded — {total_pages} pages found")
+    print(f"Processing first {limit} pages")
+
+    zoom = dpi / 72
+    matrix = fitz.Matrix(zoom, zoom)
+
+    for page_num in range(limit):
         page = doc[page_num]
-
-        # Convert page to image at given DPI
-        # 72 is PyMuPDF default DPI, so we scale up from that
-        zoom = dpi / 72
-        matrix = fitz.Matrix(zoom, zoom)
         pix = page.get_pixmap(matrix=matrix)
 
-        # Save as PNG
         img_path = os.path.join(output_folder, f"page_{page_num + 1:03d}.png")
         pix.save(img_path)
-        saved_paths.append(img_path)
 
-        print(f"  Saved page {page_num + 1}/{len(doc)} → {img_path}")
+        saved_paths.append(img_path)
+        print(f"  Saved page {page_num + 1}/{limit} → {img_path}")
 
     doc.close()
-    print(f"\nDone — {len(saved_paths)} images saved to '{output_folder}/'")
+
+    print(f"\nDone — {len(saved_paths)} images saved")
     return saved_paths
-
-
+    
 def get_pdf_info(pdf_path):
     """
     Quick inspection of a PDF before processing.
@@ -94,7 +86,7 @@ if __name__ == "__main__":
     get_pdf_info(PDF_FILE)
 
     # Step 2: convert to images
-    image_paths = pdf_to_images(PDF_FILE, output_folder="pages", dpi=300)
+    image_paths = pdf_to_images(PDF_FILE, dpi=300)
 
     print(f"\nFirst image saved at: {image_paths[0]}")
     print("Open the 'pages' folder to visually check quality.")

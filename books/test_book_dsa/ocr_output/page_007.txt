@@ -1,0 +1,46 @@
+vi Preface
+
+mathematical notation, but here we introduce a programming notation
+called axioms. The resulting implementation independent specification
+is valuable in two ways: (i) to help prove that a program which uses
+this data structure is correct, and (ii) to prove that a particular imple-
+mentation of the data structure is correct. To describe a data structure
+in a representation independent way one needs a syntax. This can be
+seen at the end of section 1.1 where we also precisely define the notions
+of data object and data structure.
+
+This book also seeks to teach the art of analyzing algorithms but
+not at the cost of undue mathematical sophistication. The value of an
+implementation ultimately relies on its resource utilization: time and
+space. This implies that the student needs to be capable of analyzing
+these factors. A great many analyses have appeared in the literature,
+yet from our perspective most students don’t attempt to rigorously analyze
+their programs. The data structures course comes at an opportune time
+in their training to advance and promote these ideas. For every algorithm
+that is given here we supply a simple, yet rigorous worst case analysis
+of its behavior. In some cases the average computing time is also derived.
+
+The growth of data base systems has put a new requirement on data
+structures courses, namely to cover the organization of large files. Also,
+many instructors like to treat sorting and searching because of the richness
+of its examples of data structures and its practical application. The
+choice of our later chapters reflects this growing interest.
+
+One especially important consideration is the choice of an algorithm
+description language. Such a choice is often complicated by the practical
+matters of student background and language availability. Our decision
+was to use a syntax which is particularly close to ALGOL, but not
+to restrict ourselves to a specific language. This gives us the ability
+to write very readable programs but at the same time we are not tied
+to the idiosyncracies of a fixed language. Wherever it seemed advisable
+we interspersed English descriptions so as not to obscure the main point
+of an algorithm. For people who have not been exposed to the IF-THEN-
+ELSE, WHILE, REPEAT-UNTIL and a few other basic statements,
+section 1.2 defines their semantics via flowcharts. For those who have
+only FORTRAN available, the algorithms are directly translatable by
+the rules given in the appendix and a translator can be obtained (see
+appendix A). On the other hand, we have resisted the temptation to
+use language features which automatically provide sophisticated data
+structuring facilities. We have done so on several grounds. One reason
+is the need to commit oneself toa syntax which makes the book especially
+hard to read by those as yet uninitiated. Even more importantly, these

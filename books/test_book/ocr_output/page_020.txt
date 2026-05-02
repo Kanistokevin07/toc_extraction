@@ -1,0 +1,62 @@
+https://abdullahsuratl github. lo/bscit
+
+Introduction to Software Project Management 13
+1.11 Setting Objectives
+Among all these stakeholders are those who actually own the project. They control the financing of the
+project. They also set the objectives of the project. The objectives should define what the project team must
+achieve for project success. Although different stakcholders have different motivations, the project objectives
+identify the shared intentions for the project. —
+Objectives focus on the desired outcomes of the project rather than the tasks within it — they are the “post- |
+conditions’ of the project. Informally the objectives could be written as a set of statements following the '
+opening ‘words:'the project will be a success if... .' Thus one statement in a set of objectives might be
+*customers can order our products online’ rather than ‘to build an e-commerce website’. There is often more
+than onc way to meet an objective and the more possible routes to success the better. |
+There may be several stakeholders, including users in different business areas, who might have some claim
+to project ownership. In such a case, a project authority needs to be explicitly identified with overall authority
+
+" Projectauthon
+
+over the project.
+This authority is often a project steering committee (or project board or project oe rer pid
+management board) with overall responsibility for setting, monitoring and modifying opment ana manage-
+objectives. The project manager runs the project on a day-to-day basis, but regularly —_ ment representatives.
+
+. . ——______g
+reports to the stecring committee. \
+Sub-objectives and goals
+
+. « o ° oe. o . . » oo”
+An effective objective for an individual must be something that is within the control “Defining sub-objectives
+of that individual. An objective might be that the software application produced must —_— requires assumptions
+pay for itself by reducing staff costs. As an overall business objective this might be spective tobe
+reasonable. For software developers it would be unreasonable as any reduction in achieved.
+operational staff costs depends not just on them but on the operational management of -——————————e
+the delivered system. A more appropriate goal or sub-objective for the software developers would be to keep
+development costs within a certain budget.
+We can say that in order to achieve the objective we must achieve certain goals or sub-objectives first. These
+are steps on the way to achieving an objective, just as goals scored in a football match are steps towards the
+objective of winning the match. Informally this can be expressed as a set of statements following the words
+‘To reach objective. . ., the following must be in place. .
+
+sare CS eo
+
+The mnemonic SMART is sometimes used to describe well-defined objectives;
+
+Specific Effective objectives are concrete and well defined, Vague aspirations ©7Fis alll eaves a prob-
+such as ‘fo improve customer relations’ are unsatisfactory. Objectives should be —_ tem about the level at
+defined so that it is obvious to all whether the project has been successful, which the ae should
+
+A . be sel, e.g. why, Say, a
+
+e Measurable Ideally there should be measures of effectiveness which tell us how —_50% reduction in com-
+
+- successful the project has been. For example, ‘to reduce customer complaints’ plaints and not 40% or
+would be more satisfactory as an objective than ‘fo improve customer relations’ . 60%
+
+The measure can, in some cases, be an answer to simple yes/no question, e.g.
+*Did we install the new software by I June?’
+
+e Achievable It must be within the power of the individual or group to achieve the objective.
+
+— https://abdullahsuratl github.lo/bscit .
+Scanned by CamScanner

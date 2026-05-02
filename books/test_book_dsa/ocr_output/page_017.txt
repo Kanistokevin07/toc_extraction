@@ -1,0 +1,50 @@
+4 Introduction
+
+basic assumptions about our own role in the universe. While this may
+be an unrealistic demand on a definition even from a technical point
+of view it is unsatisfying. The definition places great emphasis on the
+concept of algorithm, but never mentions the word ‘‘data’’. If a computer
+is merely a means to an end, then the means may be an algorithm
+but the end is the transformation of data. That is why we often hear
+a computer referred to as a data processing machine. Raw data is input
+and algorithms are used to transform it into refined data. So, instead
+of saying that computer science is the study of algorithms, alternatively,
+we might say that computer science is the study of data:
+
+(i) machines that hold data;
+
+(ii) languages for describing data manipulation;
+
+(iii) foundations which describe what kinds of refined data can be
+
+produced from raw data;
+
+(iv) structures for representing data.
+
+There is an intimate connection between the structuring of data, and
+the synthesis of algorithms. In fact, a data structure and an algorithm
+should be thought of as a unit, neither one making sense without the
+other. For instance, suppose we have a list of n pairs of names and
+phone numbers (a,,5,)(a,,52), .... (a,,b,), and we want to write a
+program which when given any name, prints that person’s phone number.
+This task is called searching. Just how we would write such an algorithm
+critically depends upon how the names and phone numbers are stored
+or Structured. One algorithm might just forge ahead and examine names,
+a,,@,,a;, ... etc., until the correct name was found. This might be
+fine in Oshkosh, but in Los Angeles, with hundreds of thousands of
+names, it would not be practical. If, however, we knew that the data
+was structured so that the names were in alphabetical order, then we
+could do much better. We could make up a second list which told
+us for each letter in the alphabet, where the first name with that letter
+appeared. For a name beginning with, say, S, we would avoid having
+to look at names beginning with other letters. So because of this new
+structure, a very different algorithm is possible. Other ideas for algorithms
+become possible when we realize that we can organize the data as we
+wish. We will discuss many more searching strategies in Chapters 7
+and 9,
+
+Therefore, computer science can be defined as the study of data,
+its representation and transformation by a digital computer. The goal
+of this book is to explore many different kinds of data objects. For
+each object, we consider the class of operations to be performed and
+then the way to represent this object so that these operations may be

@@ -1,0 +1,34 @@
+https://abdullahsurat.github,lo/bscit
+I Introduction fo Sofiw
+Project M f
+ee Ok
+2, Objectiy
+
+e Define the scope of ‘software project management’
+
+* Understand some problems and concerns of software project managers
+
+¢ Define the usual stages of a software project
+
+e Explain the main elements of the role of management
+
+¢ Appreciate the need for careful planning, monitoring and control
+
+e Identify the stakeholders of a project and their objectives
+
+e Define the success criteria for a project
+1.1 Introduction
+This textbook is about ‘sofnvare project management’. The first question is whether the management of
+software projects is really that different from that of other projects. To answer this, we need to look at some
+key ideas about the planning. monitoring and control of software projects. We will see that all projects are
+about mecting objectives. Like any other project, a software project must satisfy real needs. To do this we
+must identify the project's stakeholders and their objectives. Ensuring that their objectives are met is the aim
+of project management. However, we cannot know that a project will meet its objectives in the future unless
+we know the present state of the project.
+1.2 Why is Software Project Management Important?
+This book is for students of software engineering and computer science and also those studying business
+information systems, More technically oriented students can be impatient at having to study something which
+Veeps them away from their code. So why is it important to become familiar with project management?
+
+https://abdullahsuratl.github.lo/bscit
+Scanned by CamScanner

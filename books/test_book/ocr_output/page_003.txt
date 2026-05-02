@@ -1,0 +1,49 @@
+https://abdullahsuratl github.lo/bscit
+x Detailed Table of Contents
+2.2 Business Case 32 .
+2.3 Project Portfolio Management 34
+2.4 Evaluation of Individual Projects 35
+2.5  Cost-benefit Evaluation Techniques 37
+2.6 Risk Evaluation 43
+2.7 Programme Management 46
+2.8 Managing the Allocation of Resources within Programmes 47
+2.9 Strategic Programme Management 48
+2.10 Creating a Programme 48
+2.11 Aids to Programme Management 50
+2.12 Some Reservations about Programme Management 52
+2.13 Benefits Management 53
+Conclusion 54
+Further Exercises 55
+3. An Overview of Project Planning 58
+3.1 Introduction to Step Wise Project Planning 58
+3.2 Step 0: Select Project 60
+3.3. Step 1: Identify Project Scope and Objectives 62
+3.4 Step 2: Identify Project Infrastructure 64
+3.5 Step 3: Analyse Project Characteristics 66
+3.6 Step 4: Identify Project Products and Activities 68
+3.7 Step 5: Estimate Effort for Each Activity 73
+3.8 Step 6: Identify Activity Risks 74
+3.9 Step 7: Allocate Resources 75
+3.10 Step 8: Review/Publicize Plan 77
+3.11 Steps 9 and 10: Execute Plan/Lower Levels of Planning 78
+Conclusion 78 °
+Further Exercises 79
+4. Selection of an Appropriate Project Approach 81
+4.1 Introduction 8/
+42  BuildorBuy? 8&3
+4.3. Choosing Methodologies and Technologies 84
+4.4 Software Processes and Process Models 88
+4.5 Choice of Process Models 88
+4.6 Structure versus Speed of Delivery 88
+4.7 The Waterfall Model 89
+4.8 The Spiral Model 91]
+4.9 Software Prototyping 92
+4.10 Other Ways of Categorizing Prototypes 93
+4.11 Incremental Delivery 95
+4.12 Atern/Dynamic Systems Development Method 98
+4.13 Rapid Application Development 100
+4.14 Agile Methods J0/
+4.15 Extreme Programming (XP) 103
+4.16 Scrum 106
+https://abdullahsuratl github.lo/bscit
+Scanned by CamScanner

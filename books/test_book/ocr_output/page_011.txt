@@ -1,0 +1,52 @@
+i |
+https://abdullahsuratl github. lo/bscit
+4 Software Project Management
+others. Also, expertise built up during the project may be lost when the team is eventually dispersed at the
+end of the project.
+1.4 Software Projects versus Other Types of Project
+
+F. P. Brooks (1987). Many techniques in general project management also apply to software project
+
+‘No sitver ee ents management, but Fred Brooks identified some characteristics of software projects
+
+or sofware engineer which make them particularly difficult:
+
+i elllerhene Aids Invisibility When a physical artefact such as a bridge is constructed, the progress can
+
+Mythical Man-Afonth, —_ actually be seen. With software, progress is not immediately visible. Sof ware project
+
+Anniversary Edition, aking the invisible visible.
+
+Addison Wesley, 1995. management can be seen as the process of making the .
+——————* Conplexity Per dollar, pound or euro spent, software products contain move
+complexity than other engineered artefacts.
+
+Conformity The ‘traditional’ engineer usually works with physical systems and materials like cement and
+steel. These physical systems have complexity, but are governed by consistent physical laws. Software devel-
+opers have to conform to the requirements of human clients. It is not just that individuals can be inconsistent
+Organizations, because of lapses in collective memory, in internal communication or in effective decision
+making, can exhibit remarkable ‘organizational stupidity’.
+Flexibility That software is easy to change is seen as a strength. However, where the software system inter-
+faces with a physical or organizational system, it is expected that the software will change to accommodate
+the other components rather than vice versa. Thus, software systems are particularly subject to change.
+1.5 Contract Management and Technical Project Management
+In-house projects are where the users and the developers of new software work for the same organization.
+However, increasingly organizations contract out ICT development to outside developers. Here. the client
+organization will often appoint a ‘project manager’ to supervise the contract who will delegate many techni-
+cally oriented decisions to the contractors. Thus, the project manager will not Worry about estimating the
+effort needed to write individual software components as long as the overall project is within budget and on
+time. On the supplier side, there will need to be project managers who deal with the more technical issues.
+This book leans towards the concems of these ‘technical’ project managers.
+1.6 Activities Covered by Software Project Management
+a . .
+Chapter 4 on project ; A software project is not only concemed with the actual Writing of software. In fact.
+Seeing on eat ian where a software application is bought ‘off the shelf", there may be no software
+alternative life cycles. iting as such, but this is still fundamentally a software project because so many of
+—_—____—_———e_ the other activities associated with software will still be present. .
+Usually there are three successive processes that bring a new system into being — see Figure 1.2.
+1. the feasipaly aie assesses whether a project is worth starting - that it has a valid business case.
+nform S ga ul the requirements of the proposed application. Requirements elicitation
+can, at least initially, be complex and difficult. The stakcholders may know the aims they wish to
+pursue, but not be sure about the means of achievement. The developmental and operational costs, and
+https://abdullahsuratl github. lo/bscit
+Scanned by CamScanner

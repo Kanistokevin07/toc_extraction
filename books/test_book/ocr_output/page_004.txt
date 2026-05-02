@@ -1,0 +1,48 @@
+httes://abdullahsuratl github. io/bscit
+Detailed Table of Contents xi
+4.17 Lean Software Development 108
+4.18 Managing Iterative Processes 110
+4.19 Selecting the Most Appropriate Process Model ///
+Conclusion 112
+Further Exercises 112
+5. Software Effort Estimation 117
+3.1 Introduction 1/7
+5.2. Where are the Estimates Done? 1/9
+5.3. Problems with Over- and Under-Estimates 120
+5.4 The Basis for Software Estimating 12]
+5.5 Software Effort Estimation Techniques 124
+5.6 Bottom-up Estimating /25
+5.7 The Top-down Approach and Parametric Models 126
+5.8 ExpertJudgement 128
+5.9 Estimating by Analogy 128
+5.10 Albrecht Function Point Analysis 129
+5.11 Function Points Mark J3]
+§.12 COSMIC Full Function Points 133
+5.13 COCOMO II: A Parametric Productivity Model 135
+5.14 Cost Estimation 14]
+5.15 Staffing Pattern 14]
+5.16 Effect of Schedule Compression 143
+5.17 Capers Jones Estimating Rules of Thumb 144
+Conclusion 146
+Further Exercises 146
+6. Activity Planning 155
+6.1 Introduction 155
+6.2 Objectives of Activity Planning 156
+6.3 WhentoPlan 157
+6.4 Project Schedules 15 7
+6.5 Projects and Activities 157
+6.6 Sequencing and Scheduling Activities 163
+6.7 Network Planning Models 164
+6.8 Formulating a Network Model 164
+6.9 Adding the Time Dimension 168
+6.10 The Forward Pass 169
+6.11 Backward Pass 171
+6.12 Identifying the Critical Path 172
+6.13 Activity Float J74
+6.14 Shortening the Project Duration 174
+6.15 Identifying Critical Activities 175
+6.16 Activity-on-Arrow Networks 175
+Conclusion 183
+Further Exercises 183
+httes://abdullahsuratl github.io/bscit
+Scanned by CamScanner

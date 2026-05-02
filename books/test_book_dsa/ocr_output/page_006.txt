@@ -1,0 +1,39 @@
+PREFACE
+
+For many years a data structures course has been taught in computer
+science programs. Often it is regarded as a central course of the
+curriculum. It is faScinating and instructive to trace the history of how
+the subject matter for this course has changed. Back in the middle
+1960’s the course was not entitled Data Structures but perhaps List
+Processing Languages. The major subjects were systems such as SLIP
+(by J. Weizenbaum), IPL-V (by A. Newell, C. Shaw, and H. Simon),
+LISP 1.5 (by J. McCarthy) and SNOBOL (by D. Farber, R. Griswold,
+and I. Polonsky). Then, in 1968, volume I of the Art of Computer
+Programming by D. Knuth appeared. His thesis was that list processing
+was not a magical thing that could only be accomplished within a specially
+designed system. Instead, he argued that the same techniques could
+be carried out in almost any language and he shifted the emphasis to
+efficient algorithm design. SLIP and IPL-V faded from the scene, while
+LISP and SNOBOL moved to the programming languages course. The
+new strategy was to explicitly construct a representation (such as linked
+lists) within a set of consecutive storage locations and to describe the
+algorithms by using English plus assembly language.
+
+Progress in the study of data structures and algorithm design has
+continued. Out of this recent work has come many good ideas which
+we believe should be presented to students of computer science. It
+is Our purpose in writing this book to emphasize those trends which
+we see as especially valuable and long lasting.
+
+The most important of these new concepts is the need to distinguish
+between the specification of a data structure and its realization within
+an available programming language. This distinction has been mostly
+blurred in previous books where the primary emphasis has either been
+on a programming language or on representational techniques. Our
+attempt here has been to separate out the specification of the data structure
+from its realization and to show how both of these processes can be
+successfully accomplished. The specification stage requires one to
+concentrate on describing the functioning of the data structure without
+concern for its implementation. This can be done using English and
+
+Vv

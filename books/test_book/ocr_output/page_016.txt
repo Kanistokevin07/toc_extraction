@@ -1,0 +1,46 @@
+_— - To
+https.//abdullahsuratl.github.lo/bsclt
+Introduction to Software Project Ianayement 9
+A large numer of Projects that are being undertaken now are essentially customization of vum existing
+software or nye opment for a new release of an existing software. In these projects, much of the wie of Uy:
+developed software comes from reused code and only a small part of the code is actually written by the deve)-
+opment team. Consequently, project durations have now shrunk to only a few months compared to multi-yeer
+projects that were being undertaken till about a few decades back. Further, in the past, customer pesticipetion
+in software projects was largely restricted to only the initial interactions for requirements, gathenng, «v4
+specification and Jater, on completion of the project, taking delivery of the developed software. In contraut.
+at present, customer participation in almost every aspect of a project is being actively encouraged znd often
+a few customer representatives are being included in the development team.
+Compulsory versus voluntary users
+In workplaces, there are systems that staff have to use if they want to do something, such as recording 2 szle.
+However, use of a system is increasingly voluntary, as in the case of computer games. Here it is difficult to
+elicit precise requirements from potential users as we could with a business system. What the game will co
+will thus depend much on the informed ingenuity of the developers, along with techniques such as mzricet
+surveys, focus groups and prototype evaluation.
+Information systems versus embedded systems
+eo
+A traditional distinction has been between information systems which enable staff to econ
+carry out office processes and embedded systems which control machines. A stock time or industiat
+control system would be an information system. An embedded, or process contro], sys-ems.
+system might control the air conditioning equipment ina building. Some systems may ——-"———————_®
+have elements of both where, for example, the stock control system also controls an automated wzrehowse.
+a
+Exercise 1.5 ‘S_/
+im
+Would an operating system on a computer be an information system or an embedded system?
+i EEE EE
+Software products versus services
+All types of software projects can broadly be classified into software product development projects and
+software services projects. These two broad classes of software projects can be further classified imto
+‘Subclasses, as shown in Figure 1.4. A software product development project concerns developing th= software
+by keeping the requirements of the general customers in mind’and the developed software is usually sod
+off-the-shelf to a large number of customers. A software product development project can further be classified
+depending on whether it concems developing a generic product or a domain-specific product. A generic
+software product is sold to a broad spectrum of customers and is said to have a honzontal market. Examples
+of gencric software products are Microsoft’s Windows operating system and Oracle Corporation's Orecle §
+database management software. On the other hand, domain-specific software products are sold to specific
+categories of customers and are said to have a vertical market, Domain-specific software products mrget
+specific segments of customers (called verticals), such as, banking, telecommunication. finance and accounts
+and medical., Examples of domain-specific software products are BANCS from TCS and FINACLE from
+Infosys in the banking domain and AspenPlus from Aspen corporation in the chemical process simulstion.
+https://abdullahsuratl github.lo/bscit
+Scanned by CamScanner

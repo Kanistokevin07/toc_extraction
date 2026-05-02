@@ -1,0 +1,62 @@
+https://abdullahsuratl github.lo/pscit
+
+12 Software Project Management
+The project charter is usually a short document that is only a couple of pages Jong and typically contains the
+following:
+
+e Overall objectives of the project and the broad items that are within the scope of the project and those
+
+that are out of scope.
+
+© The time schedule in terms of the start date and the expected completion date of the project.
+
+© The important stakeholders and their responsibilities towards the project.
+
+e Overview of the resources that will be needed for the project and the overall budget.
+
+@ Major risks to the project and the broad strategies that can be adopted for overcoming those.
+
+1.10 Stakeholders
+
+These are people who have a stake or interest in the project. Their early identification is important as you need
+
+to set up adcquate communication channels with them. Stakeholders can be categorized as:
+
+e Internal to the project team This means that they will be under the direct managerial control of the
+project leader,
+
+e External to the project team but within the same organization For example, the project leader might
+need the assistance of the users to carry out systems testing. Here the commitment of the people
+involved has to be negotiated.
+
+e External to both the project team and the organization External stakeholders may be customers (or
+users) who will benefit from the system that the project implements. They may be contractors who will
+carry out work for the project. The relationship here is usually based on a contract.
+
+°Sw.Bochmand Different types of stakeholders may have different objectives and one of the jobs of
+R. Ross, ‘Theory W the project leader is to recognize these different interests and to be able to reconcile
+software projectman- —_ them. For example, end-users may be concemed with the ease of use of the new appli-
+agement: principles : : . :
+and examples’, inB.w, Cation, while their managers may be more focused on staff savings. The project leader
+Boehm (ed.) (1989) therefore needs to be a good communicator and negotiator. Boehm and Ross proposed
+SON IEE Soret a ‘Theory W" of software project management where the manager concentrates on
+Society Press. creating situations where all parties benefit from a project and therefore have an
+
+—_—__—__———e_ interest in its success. (The ‘W’ stands for ‘win—win’.)
+
+OTheroleandfonnat..- Project managers can sometimes miss an important stakeholder group, especially
+of communication in unfamiliar: business contexts. These could be departments supplying important
+plans will be explained services that are taken for granted
+In greater detall In .
+ro neeple in software Given the importance of coordinating the efforts of stakeholders, the recommended
+environments. practice is for a communication plan to be created at the start of a project.
+
+—___—__—_-0
+
+— 4
+Exercise 1.7
+ep
+Identify the stakeholders in the Brightmouth College payroll project.
+a
+https://abdullahsuratl github.lo/pscit
+Scanned by CamScanner

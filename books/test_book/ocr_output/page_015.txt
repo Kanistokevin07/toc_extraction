@@ -1,0 +1,41 @@
+httos://abdullahsuratl.github.lo/bscit >
+8 Software Project Management
+© Devise and write test cases that will check that cach requirement hus been satisfied.
+@ Create test scripts and expected results for each test case.
+e Compare the actual results and the expected results and identify discrepancies.
+While a method relates to a type of activity in general, a plan takes that method (and perhaps others) and
+converts it to real activities, identifying for each activity:
+e@ Its start and end dates
+e Who will carry it out
+e What tools and materials — including information — will be needed
+The output from one method might be the input to another. Groups of methods or techniques are often
+srouped into methodologies such as object-oriented design.
+4
+Exercise 1.4 (P9
+This should ideally be done in groups of about four, but you can think about how you would go about
+this exercise on your own if need be. You are probably in a building that has more than one storey. From
+the point of view of this exercise, the bigger the building the better.
+In a group of four, work out how you would obtain an accurate estimate of the height of the building.
+(If you happen to be in a single-storey building, you can estimate the floor area instead!) Plan how you
+would carry out any action needed to obtain your estimate. Spend 20 minutes on this — you must remain
+in the same room for this planning phase. Once planning is complete, implement your plan, timing how
+long it takes to produce your final figure.
+If there is more than one group carrying out this exercise, after completion of the task you can compare
+answers and also the approach you used when coming up with your answer.
+_ ee eee ee
+1.8 Some Ways of Categorizing Software Projects
+Projects may differ because of the different technical products to be created. Thus we need to identify the
+characteristics of a project which could affect the way in which it should be planned and managed. Other
+factors are discussed below.
+Changes to the characteristics of software projects
+Over the last few decades, the characteristics of software projects have undergone drastic changes. For
+example, in the initial years of software development, almost every software was being entirely written
+from scratch. A possible reason for this could be that in those early days of software development, not many
+programs were available from which code could be reused in a new software development project. As a
+result, the entire code for every project had to be written from scratch. Further inhibiting code reuse was
+the ae that the i ciniarle parachems that existed in those days hardly provided any support for code
+reuse. con ; a P i” tema programnming language supports several ways of reusing existing
+code, Including € egant way mizing and extending existing code, efficiently and dynamically linking
+library routines and support for frameworks. .
+https://abdullahsuratl github. lo/bscit
+Scanned by CamScanner

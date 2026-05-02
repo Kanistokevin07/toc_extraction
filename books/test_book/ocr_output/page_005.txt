@@ -1,0 +1,47 @@
+xii Detailed Table of Contents
+188
+7. Risk Management
+7.1. Introduction 188
+7.2 Risk 189
+7.3 Categories of Risk 190
+7.4 Risk Management Approaches 192
+7.5 A Framework for Dealing with Risk /92
+7.6 Risk Identification 193
+7.7. Risk Assessment 194
+7.8 Risk Planning 197
+79 Risk Management 199
+7.10 Evaluating Risks to the Schedule 200
+7.11 Boehm’s Top 10 Risks and Counter Measures 202
+7.12 Applying the PERT Technique 203
+7.13 Monte Carlo Simulation 208
+7.14 Critical Chain Concepts 209
+Conclusion 214
+Further Exercises 215
+§. Resource Allocation 219
+8.1 Introduction 219
+82  NatureofResources 220
+8.3 Identifying Resource Requirements 221]
+8.4 Scheduling Resources 224
+8.5 Creating Critical Paths 228
+8.6 Counting the Cost 228
+8.7 Being Specific 228
+8.8 Publishing the Resource Schedule 230
+8.9  CostSchedules 232 :
+810 Scheduling Sequence 233
+Conclusion 235
+Further Exercises 235
+9. Monitoring and Control 238
+9.1 Introduction 238
+9.2 Creating the Framework 238
+9.3 Collecting the Data 24]
+9.4 Review 244
+9.5 Visualizing Progress 247
+9.6 Cost Monitoring 250 .
+9.7. Earmed Value Analysis 25]
+9.8 Prioritizing Monitoring 256
+99 Getting the Project Back to Target 257
+9.10 Change Control 259
+9.11 Software Configuration Management (SCM) 26]
+Conclusion 267
+Further Exercises 267
+Scanned by CamScanner

@@ -1,0 +1,48 @@
+\
+Detailed Table of Contents xiii |
+10. Managing Contracts
+10.1 Introduction 270 270
+10.2. Types of Contract 277
+10.3 Stages in Contract Placement 276
+10.4 Typical Terms of a Contract 280
+10.5 Contract Management 283
+10.6 Acceptance 283
+Conclusion 284
+Further Exercises 284
+11. Managing People in Software Environments 286
+11.1 Introduction 286
+11.2 Understanding Behaviour 288
+11.3. Organizational Behaviour: A Background 289
+11.4 Selecting the Right Person for the Job 290
+11.5 Instruction in the Best Methods 292 .
+11.6 Motivation 292
+11.7 The Oldham—Hackman Job Characteristics Model 295
+11.8 Stress 296
+11.9 Stress Management 297
+11.10 Health and Safety 297
+11.11 Some Ethical and Professional Concerns 298
+Conclusion 300
+Further Exercises 300
+12. Working in Teams 303
+12.1 Introduction 303 ,
+12.2 BecomingaTeam 304
+12.3. Decision Making 307
+12.4 Organization and Team Structures 312
+12.5 Coordination Dependencies 318
+12.6 Dispersed and Virtual Teams 319
+12.7. Communication Genres 321
+12.8 Communication Plans 323
+12.9 Leadership 323
+Conclusion 325
+Further Exercises 326
+13. Software Quality 327
+13.1 Introduction 327
+13.2 The Place of Software Quality in Project Planning 328
+13.3 Importance of Software Quality 329
+13.4 Defining Software Quality 329
+13.5 Software Quality Models 33]
+13.6 1809126 333
+13.7 Product and Process Metrics 339
+13.8 Product versus Process Quality Management 339
+httes://abdullahsuratl github. io/pscit
+Scanned by CamScanner

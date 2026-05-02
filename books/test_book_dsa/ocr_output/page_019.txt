@@ -1,0 +1,50 @@
+6 Introduction
+
+object. This implies that we must specify the set of operations and
+show how they work. For integers we would have the arithmetic
+operations +, —, *, / and perhaps many others such as mod, ceil,
+floor, greater than, less than, etc. The data object integers plus a
+description of how +, —, *, /, etc. behave constitutes a data structure
+definition.
+
+To be more precise lets examine a modest example. Suppose we
+want to define the data structure natural number (abbreviated natno)
+where natno = {0,1,2,3, ...} with the three operations being a test for
+zero addition and equality. The following notation can be used:
+
+structure NA TNO
+- I declare ZERO( ) > natno
+2 ISZERO(natno) — boolean
+3 SUCC(natno) — natno
+4 ADD{(natno, natno) > natno
+5 EQ(natno, natno) > boolean
+6 for all x, y € natno let
+7 ISZERO(ZERO) ::= true; ISZERO(SUCC(x)) ::= false
+8 ADD(ZERO, y) :: = y, ADD(SUCC(®), y) 2: =
+SUCC(ADD(, y))
+9 EQ(x%, ZERO) :: = if ISZERO(x) then true else false
+10 EQ(ZERO, SUCC(y)) :: = false
+EQ(SUCC(x), SUCC(y)) :: = EQ(. y)
+11 end ;
+end NATNO
+
+In the declare statement five functions are defined by giving their
+names, inputs and outputs. ZERO is a constant function which means
+it takes no input arguments and its result is the natural number zero,
+written as ZERO. ISZERO is a boolean function whose result is either
+true or false. SUCC stands for successor. Using ZERO and SUCC
+we can define all of the natural numbers as: ZERO, 1 = SUCC(ZERO),
+
+2 = SUCC(SUCC(ZERO)), 3 = SUCC(SUCC(SUCC(ZERO))), ... etc.
+
+The rules on line 8 tell us exactly how the addition operation works.
+
+For example if we wanted to add two and three we would get the following
+
+sequence of expressions:
+ADD(SUCC(SUCC(ZERO)), SUCC(S UCC(SUCC(ZERO))))
+
+which, by line 8 equals
+SUCC(ADD(SUCC(ZERO),SUCC(SUCC(SUCC(ZERO))))) ;
+
+which, by line 8 equals

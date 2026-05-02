@@ -1,0 +1,38 @@
+x Contents
+4.10 Garbage Collection and Compaction.............. 169
+4.11 STRINGS—A Case Study ..........--....... 182
+4.11.1 Data Representations for STRINGS ......... 184
+4.11.2 Pattern Matching in STRINGS ............ 169
+4.12 Implementing Node Structures ................. 197
+References and Selected Readings ............... 201
+Exercises 2... 0 ee ee ee eee ee 202
+CHAPTER 5 TREES
+5.1 Basic Terminology ...........2. 2 ee eee ee © 28
+§.2 Binary Trees .. 2... .. eee eee ee eee ee ee we 223
+5.3 Binary Tree Representations .................. 225
+5.4 Binary Tree Traversal ...............2+24.. 228
+5.5 More on Binary Trees ...........-.2-22224.. 234
+5.6 Threaded Binary Trees ................2-.2... 239
+5.7. Binary Tree Representation of Trees ............. 243
+5.8 Applications of Trees. ...........20--4----. 248
+5.8.1 Set Representation ................... 248
+5.8.2 Decision Trees ............2.-022+24.. 257
+5.8.3 Game Trees ... 2... 2... 0.00 eee ee ee es 259
+5.9 Counting Binary Trees .............-.2..2.... 270
+References and Selected Readings ............... 275
+Exercises 2... 0. ee ee eee ee 276
+CHAPTER 6 GRAPHS
+6.1 Terminology and Representations ............... 282
+6.1.1 Introduction ................2-.2..4. 282
+6.1.2 Definitions and Terminology ............. . 283
+6.1.3. Graph Representations ................. 287
+6.2 Traversals, Connected Components and Spanning Trees . . . 292
+6.3 Shortest Paths and Transitive Closure ............. 301
+6.4 Activity Networks, Topological Sort and Critical Paths. . . . 310
+6.5 Enumerating All Paths ..................... 324
+References and Selected Readings ............... 327
+Exercises 2... ee ee ee ee ee ee es 328
+CHAPTER 7 INTERNAL SORTING
+7.1 Searching ..- 2... 0. ee ee ee ee eee ee 335
+7.2 Imsertion Sort... 2... ee ee ee ee ee B45
+7.3. Quicksort .... 0.0.0.0. 000. eee eee ee ee ee B47

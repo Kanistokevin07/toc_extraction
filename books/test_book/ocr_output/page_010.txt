@@ -1,0 +1,48 @@
+https://abdullahsuratl github.lo/bscit
+Introduction to Software Project Management 3
+The following charactenstics distinguish projects:
+e Noa-routine tasks are involved.
+e Planning is required.
+e Specific objectives are to be met or a specified product is to be created. ,
+e The project has a predetermined time span.
+e Work is carried out for somcone other than yourself.
+e Work involves several specialisms. }
+e People are formed into a temporary work group to carry out the task.
+e Work is carried out in several phases.
+e The resources that are available for use on the project are constrained.
+e The project is large or complex.
+The more, any of these factors apply to a task, the more difficult that task will be. Project size is particularly
+important. The project that employs 20 developers is likely to be disproportionately more difficult than one
+with only 10 staff because of the need for additional coordination. The examples and exercises used in |
+this book usually relate to smaller projects in order to make the techniques easter to grasp. However, the
+techniques and issues discussed are of equal relevance to larger projects.
+_——
+Exercise 1.1 &
+eS
+Consider the following:
+e Producing an edition of a newspaper
+© Putting a robot vehicle on Mars to search for signs of life :
+e Getting married |
+e Amending a financial computer system to deal with a common European currency !
+e A research project into what makes a good human-computer interface
+e An investigation into the reason why a user has a problem with a computer system
+e A second-year programming assignment for a computing student |
+e Writing an operating system for a new computer |
+e Installing a new version of a word processing package in an organization
+Some seem more like real projects than others. Put them into an order most closely matching your ideas
+of what constitutes a project. For each entry in the ordered list, describe the difference between it and
+the one above which makes it less worthy of the term ‘project’.
+There is no one correct answer to this exercise, but a possible solution to this and the other exercises
+you will come across may be found at the end of the book.
+Eee ee
+._____———
+. . For example, see Rolf
+Some argue that projects are especially problematic as they are temporary sub-organi- —_A. Lundin and Andres
+zations. A group of people is brought together to carry out a task. The existence of vO a
+this sub-organization cuts across the authority of the existing units within the organi- porary organization’
+zation. This has the advantage that a group containing various specialists is focused Scandinavian Journal
+on a single important task. However, the project is Jikely to be seen as disruptive to or Management 11(4)
+___—-
+|
+https://abdullahsurat!,github,lo/bscit -
+Scanned by CamScanner

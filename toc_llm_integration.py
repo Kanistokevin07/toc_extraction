@@ -3,7 +3,7 @@ import os
 from toc_llm_parser import parse_toc_multi
 
 
-def load_toc_images(toc_pages, folder="pages_clean"):
+def load_toc_images(toc_pages, folder):
     images = []
 
     for p in toc_pages:
@@ -17,27 +17,21 @@ def load_toc_images(toc_pages, folder="pages_clean"):
     return images
 
 
-def extract_toc_with_llm(images):
+def extract_toc_with_llm(toc_pages, folder):
     """
-    Takes list of PIL images and runs ONE LLM call
+    Single-call Vision LLM for all TOC pages
     """
+    toc_images = load_toc_images(toc_pages, folder)
+
+    if not toc_images:
+        return [], 0.0
+
     print("\n🚀 Running LLM on all TOC pages (single call)...")
 
-    try:
-        result = parse_toc_multi(images)
+    result = parse_toc_multi(toc_images)
 
-        entries = result.get("entries", [])
-        confidence = result.get("confidence", 0)
+    entries = result.get("entries", [])
+    confidence = result.get("confidence", 0)
 
-        return {
-            "entries": entries,
-            "confidence": confidence
-        }
+    return entries, confidence
 
-    except Exception as e:
-        print(f"❌ LLM error: {e}")
-
-        return {
-            "entries": [],
-            "confidence": 0
-        }

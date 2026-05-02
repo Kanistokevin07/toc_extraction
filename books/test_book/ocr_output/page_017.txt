@@ -1,0 +1,36 @@
+https://abdullahsuratl github. lo/bscit
+10 Software Project Management
+Software product Software servces
+development projects projects
+Generic Vertical Customizatio OM
+software software projects projects projects
+product product
+development development
+projects projects
+Ficure 1.4 A classification of software projects
+Software services on the other hand, cover a large gamut of software projects such as customization,
+Ovisourcing, maintenance, testing and consultancy. At present, there is a rapid growth in the number of
+software services projects that are being undertaken world-wide and software services are poised to become
+the dominant type of software projects. One of the reasons behind this situation is the steep growth in the
+available code base. Over the past few decades, a large number of programs have already been developed.
+Available programs can therefore be modified to quickly fulfil the specific requirements of any customer. At
+present, there is hardly any software project in which the program code is written from scratch, and software
+is being mostly developed by customizing some existing software. For example, to develop a software to
+automate the payroll generation activities of an educational institute, the vendor may customize an existing
+software that might have been developed earlier for a different client’s educational institute. Due to heavy
+reuse of code, it has now become possible to develop even large software systems in rather short period of
+time. Therefore, typical project durations are at present only a couple of months and multi-year projects have
+become very rare.
+Outsourced projects
+While developing a large project, sometimes, it makes good commercial sense for a company to outsource
+some parts of its work to other companies. There can be several reasons behind such a decision. For example,
+a company may consider outsourcing as a good option, if it feels that it does not have sufficient expertise to
+ceva some specie parts of the product or if it determines that some parts can be developed cost-eftec-
+tively H ano er company. Since an outsourced project is a small part of some project, it is usually small in
+size and needs to completed within a few months, Considering these differences between an outsourced
+project and a conventional project, managing an outsourced project entails special challenges.
+Indian aie companies oe executing outsourced sof tware projects and have eamed a fine reputation
+| in this fie over the world. Of late, the Indian companies have slowly begun to focus on product devel-
+opment as well.
+. https://abdullahsuratl github. lo/bscit
+Scanned by CamScanner

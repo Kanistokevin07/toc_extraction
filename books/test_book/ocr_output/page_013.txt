@@ -1,0 +1,50 @@
+6 Software Project Management = atu Lofosct
+Oo ee
+D
+| E Requirements analysis F
+7) Architecture dosign g
+@
+Requiroments analysis 2
+Architecture design 9 |
+g,
+Requirements analysis $
+U
+3 a
+Detailed design ®
+© &
+g 5
+zZ 3
+3° @
+a 2) 3
+a} 1S)
+o a
+> =
+3 [e) \
+Qualification test = ° I
+a
+2
+2
+” Qualification test :
+"oo>
+coa
+ap 2
+9 Acceptance support 3 °
+feo]
+Ficure 1.3 The ISO 12207 software development life cycle
+is dispatching an ambulance in response to an emergency telephone call. In this case transaction time
+would be affected by hardware and software performance as well as the speed of human operation.
+Training to ensure that operators use the computer system efficiently is an example of a system
+requirement for the project, as opposed to a specifically software requirement. There would also be
+resource requirements that relate to application development costs.
+@ Architecture design The components of the new system that fulfil each requirement have to be identified.
+Existing components may be able to Satisfy some requirements. In other cases, a new component
+will have to be made. These components are not only software: they could be new hardware or work
+processes. Although software developers are Primarily concerned with software components, it is very
+rare that these can be developed in isolation. They will, for example, have to take account of existing
+legacy systems with which they will interoperate, The design of the system architecture is thus an
+input to the software requirements. A second architecture design process then takes place that maps the
+software requirements to software components,
+oe Detailed design Each software component is made up of a number of software units that can be
+separately coded and tested. The detailed design of these units is carried out separately.
+hitasv/abdullahsurati lolbsci
+Scanned by CamScanner

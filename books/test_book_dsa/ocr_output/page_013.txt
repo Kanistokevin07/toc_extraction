@@ -1,0 +1,15 @@
+xii Contents
+10.2.4 Trie Indexing...................2.... S517
+10.3 File Organizations ........ 0.000.008 eee eee ee 525
+10.3.1 Sequential Organizations ............... 525
+10.3.2. Random Organizations. ................ 525
+10.3.3 Linked Organization .................. 528
+10.3.4 Inverted Files .............2.2226222. 53]
+10.3.5 Cellular Partitions ................... 533
+10.4 Storage Management ..............20 2.0444 533
+References and Selected Readings ............... 535
+Exercises 2... . ee ee tt ee eee ee 536
+APPENDIX A: SPARKS .................... 543
+APPENDIX B: ETHICAL CODE IN
+INFORMATION PROCESSING ..... 553
+APPENDIX C: ALGORITHM INDEX BY CHAPTER . 558
