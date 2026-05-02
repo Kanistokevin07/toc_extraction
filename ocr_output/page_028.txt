@@ -1,56 +1,55 @@
-How to Create Programs 15
-This is a goal which should be aimed at by everyone who writes programs.
-The SPARKS language is rich enough so that one can create a good
-looking program by applying some simple rules of style.
+httos://abdullahsuratl.github.lo/bscit
+Introduction to Software Project Management 21
 
-(i) Every procedure should carefully specify its input and output
+1.16 Project Management Life Cycle
+The different phases of the project management life cycle are shown in Figure 1.8. In the following, we
+discuss the main activities that are carried out in each phase.
+Project Initiation
+As shown in Figure 1.8, the software project management life cycle starts with project initiation. The project
+initiation phase usually starts with project concept development. During concept development the different
+characteristics of the software to be developed are thoroughly understood. The different aspects of the project
+that are investigated and understood include: the scope of the project, project constraints, the cost that would
+be incurred and the benefits that would accrue. Based on this understanding, a feasibility study is undertaken
+to determine whether the project would be financially and technically feasible. This is true for all types
+of projects, including the in-house product development projects as well as the outsourced projects. For
+example, an organization might feel a need fora software to automate some of its activities, possibly for more
+efficient operation. Based on the feasibility study, the business case is developed. Once the top management
+agrees to the business case, the project manager is appointed, the project charter is written, and finally the
+project team is formed. This sets the ground for the manager to start the project planning phase.
+As has already been pointed out, during the project initiation phase it is crucial for the champions of the
+project to develop a thorough understanding of the important characteristics of the project. In his WSHH
+principle, Barry Boehm summarized the questions that need to be asked and answered in order to have an
+understanding of these project characteristics.
+WS5HH Principle: Boehm suggested that during project initiation, the project champions should have
+comprehensive answers to a set of key questions pertaining to the project. The answers to these questions
+would lead to the definition of key project characteristics. The name of this principle (W5HH) is an acronym
+constructed from the first letter of each question. This set of seven questions is the following: 7
 
-variables.
+e Why is the software being built?
 
-(ii) The meaning of variables should be defined.
+e What will be done?
 
-(iii) The flow of the program should generally be forward except
+o When will it be done?
 
-for normal looping or unavoidable instances.
+e Who is responsible for a function?
 
-(iv) Indentation rules should be established and followed so that
+e Where are they organizationally located?
 
-computational units of program text can more easily be identified.
+e How will the job be done technically and managerially?
 
-(v) Documentation should be short, but meaningful. Avoid sentences
+© How much of each resource is needed?
 
-like “‘iis increased by one.”
+Project bidding: Once an organization's top management is convinced by the business case, the project
+charter is developed. For some categories of projects, it may be necessary to have a formal bidding process
+to select a suitable vendor based on some cost-performance criteria, If the project involves automating some
+muss of an organization, the organization may either decide to develop it in-house or may get various
+software vendors to bid for the project. We briefly mention the different types of bidding techniques and their
+implications and applicability.
 
-(vi) Use subroutines where appropriate.
+° Aes a ir quotation (RFQ) An organization advertises an RFQ if it has good understanding of the
+thency an cn possible solutions. While publishing the RFQ, the organization would have to mention
+subsivi of the work in a statement of work (SOW) document. Based on the RFQ different vendors can
 
-See the book The Elements of Programming Style by Kernighan and
-Plauger for more examples of good rules of programming.
-
-1.33. HOW TO CREATE PROGRAMS
-
-Now that you have moved beyond the first course in computer science,
-you should be capable of developing your programs using something
-better than the seat-of-the-pants method. This method uses the philoso-
-phy: write something down and then try to get it working. Surprisingly,
-this method is in wide use today, with the result that an average
-programmer on an average job turns out only between five to ten lines
-of correct code per day. We hope your productivity will be greater.
-But to improve requires that you apply some discipline to the process
-of creating programs. To understand this process better, we consider
-it as broken up into five phases: requirements, design, analysis, coding,
-and verification,
-
-(i) Requirements. Make sure you understand the information you are
-given (the input) and what results you are to produce (the output). Try
-to write down a rigorous description of the input and output which -
-covers all cases.
-
-You are now ready to proceed to the design phase. Designing an
-algorithm is a task which can be done independently of the programming
-language you eventually plan to use. In fact, this is desirable because
-it means you can postpone questions concerning how to represent your
-data and what a particular statement looks like and concentrate on the
-order of processing.
-
-(ii) Design. You may have several data objects (such as a maze, a
-polynomial, or a list of names). For each object there will be some
+eir quotations. The RFQ issuing organization can select a vendor based on the price quoted as
+https://abdullahsuratl github. lo/bscit
+Scanned by CamScanner

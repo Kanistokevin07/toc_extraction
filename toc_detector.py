@@ -1,11 +1,12 @@
 import re
 import json
 import os
-
+from toc_llm_integration import extract_toc_with_llm, load_toc_images
+from toc_parser import parse_toc, add_page_ranges, build_hierarchy
 
 def score_page_as_toc(text):
     """
-    Gives a score to a page based on how likely it is a TOC page.
+    Gives a score to a page based on how likely it is a TOC page.   
     Higher score = more likely to be TOC.
     """
     score = 0
@@ -187,13 +188,38 @@ if __name__ == "__main__":
     if not toc_pages:
         print("\nNo TOC pages found. Try lowering score_threshold.")
     else:
-        # Extract combined TOC text
-        toc_text = extract_toc_text(ocr_results, toc_pages)
+        # 🔥 NEW: Use Vision LLM
+        images = load_toc_images(toc_pages)
 
-        # Save for next module
-        with open("toc_raw.txt", "w", encoding="utf-8") as f:
-            f.write(toc_text)
+        result = extract_toc_with_llm(images)
 
-        print(f"\nTOC text saved to toc_raw.txt")
-        print(f"\n--- Preview ---\n")
-        print(toc_text[:500])
+        entries = result.get("entries", [])
+        conf = result.get("confidence", 0)
+
+        print(f"\nLLM confidence: {conf:.2f}")
+        # 🔁 Fallback to your existing OCR parser
+        if conf < 0.7 or not entries:
+            print("\n⚠️ LLM failed or low confidence — using OCR parser")
+
+            toc_text = extract_toc_text(ocr_results, toc_pages)
+
+            with open("toc_raw.txt", "w", encoding="utf-8") as f:
+                f.write(toc_text)
+
+            print(f"\nTOC text saved to toc_raw.txt")
+            print(f"\n--- Preview ---\n")
+            print(toc_text[:500])
+
+            # Use your existing parser
+            entries = parse_toc(toc_text)
+
+        # 🔥 COMMON PIPELINE (same for both paths)
+        entries = add_page_ranges(entries)
+        hierarchy = build_hierarchy(entries)
+
+        # Save final output
+        import json
+        with open("toc_parsed.json", "w", encoding="utf-8") as f:
+            json.dump(hierarchy, f, indent=2, ensure_ascii=False)
+
+        print("\n✅ Final TOC saved to toc_parsed.json")

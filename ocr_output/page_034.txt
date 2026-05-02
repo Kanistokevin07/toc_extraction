@@ -1,50 +1,65 @@
-How to Create Programs 21
-of the restrictions on lower and upper limits of DO-LOOPS.
+nepsulabedllansural.ctnyilroduction to Software Project Management 27
+take 12 months using permanent staff. A small budget is available to hire cmporary staff in the case of
+staff absences through holidays, sickness or temporary transfer to other, more urgent, jobs, Discuss the
+control system that will need to be in place to control that sub-project,
 
-Let us develop another program. We assume that we have n = 1
-distinct integers which are already sorted and stored in the array A(1:n).
-Our task is to determine if the integer x is present and if so to return
-j such that x = A(j); otherwise return j = 0. By making use of the
-fact that the set is sorted we conceive of the following efficient method:
+6. The idea behind a project is that students should be able to access details of available placements via
+an intranct. When there is a placement opportunity for which they wish to be considered, they would
+be able to apply for it electronically. This would cause a copy of their CV, which would also be held
+online, to be sent to the potential employer.
 
-“‘let A(mid) be the middle element. There are three possibilities. Either x
+Details of interviews and placement offers would all be sent by e-mail. While some human intervention
+would be needed, the process would be automated as far as possible.
 
-< A(mid) in which case x can only occur as A(1) to A(mid — 1); or x
+You are required to produce a business case report for such an application, which justifies the potential
+development by showing that the value of its potential benefits outweighs its development and opera-
+tional costs.
 
-> A(mid) in which case x can only occur as A(mid + 1) to A(n); or x
+Create lists of the main benefits and costs for the project. You do not have to specify actual figures, just
+the headings under which they would appear,
 
-= A(mid) in which case set j to mid and return. Continue in this way by
+7. Distinguish between software product development and outsourced projects. Explain the key ways in
+which managing an outsourcing project differs from a product development project.
 
-keeping two pointers, lower and upper, to indicate the range of elements
-not yet tested.”’
-At this point you might try the method out on some sample numbers.
-This method is referred to as binary search. Note how at each stage
-the number of elements in the remaining set is decreased by about
-one half. We can now attempt a version using SPARKS pseudo code.
-procedure BINSRCH(A,n,x,j)
+8. Identify the important characteristics of software development projects which make these harder to
+manage compared to other types of projects, Say for example, a building construction project.
 
-initialize lower and upper
+9. What is the difference between a method and a methodology? What are the essential items that must be
+planned before carrying out a method or methodology?
 
-while there are more elements to check do
+10. Identify the main differences between managing the development of a conventional project and an
+outsourced project.
 
-let A(mid) be the middle element
-case
+Il. Identify the key aspects in which moder software project management practices differ from those of
+traditional software project management.
 
-: x > A(mid): set lower to mid + |
-:x< A(mid): set upper to mid —1
-: else: found
+12. Explain the major activities carried out by a software project manager and the order in which these are
+carried out.
 
-end
+13. Identify the factors that make software projects much more difficult to manage, compared to many
+other types of projects such as a project to lay out a 100 km concrete road on an existing nonconcrete
+road.
 
-end
+14, What do you understand by the terms software development life cycle and software project management
+life cycle? Using a suitable schematic diagram explain the temporal relationship between the software
+development life cycle and the project management life cycle.
 
-not found
-end BINSRCH
-The above is not the only way we might write this program. For instance
-we could replace the while loop by a repeat-until statement with the
-same English condition. In fact there are at least six different binary search
-programs that can be produced which are all correct. There are many more
-that we might produce which would be incorrect. Part of the freedom comes
-from the initialization step. Whichever version we choose, we must be sure
-we understand the relationships between the variables. Below is one
-complete version.
+15. What are the different phases of the software development life cycle and software project management
+life cycle? Explain the sequencing of the phases in these two life cycles using a schematic diagram.
+
+16. What do you understand by W5SHH principle? Explain the significance of this principle.
+
+17, What is a project charter? What purpose does it serve? Who usually writes this document and at which
+point in the project management life cycle is this document produced?
+
+18. Differentiate between software product development projects and software services projects, What are
+the important differences between their characteristics? Why are software services projects becoming
+much more common?
+
+19. Identify the important differences in the characteristics of the software development projects that are
+being undertaken now with those that were undertaken several decades back. What can be the possible
+reasons for the drastic shrinkage of the project durations from multi-year to a couple of months now?
+
+https://abdullahsuratl github lo/bscit
+
+Scanned by CamScanner

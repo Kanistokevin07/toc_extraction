@@ -1,25 +1,44 @@
-10 Introduction
-these will be enclosed in square brackets. Brackets must be used to show
-how each else corresponds to one if. The meaning of this statement is
-given by the flow charts:
-or
-
-We will assume that conditional expressions are evaluated in ‘‘short
-circuit’? mode; given the boolean expression (cond1 or cond2), if cond]
-is true then cond2 is not evaluated; or, given (condi and cond2), if
-cond] is false then cond2 is not evaluated.
-
-To accomplish iteration, several statements are available. One of them
-iS
-
-while cond do
-S
-end
-where cond is as before, S is as S, before and the meaning is given
-by
-<p
-false
-
-It is well known that all ‘‘proper’’ programs can be written using only
-the assignment, conditional and while statements. This result was obtained
-by Bohm and Jacopini. Though this is very interesting from a theoretical
+“Tt
+https://abdullahsuratl github.lo/bsclt
+16 Sofscare Project Management
+increase costs on the carlicr projects, but later projects benefit as the learnt technologies can be deployed
+more quickly. cheaply and accurately, This expertise is often accompanied by additional software assets, for
+example. reusable code. Where software development is outsourced, there may be immediate savings, but
+these longer-term benefits of increased expertise will be Jost. Astute managers may assess which areas of
+technical expertise it would be beneficial to develop.
+Customer relationships can also be built up over a number of projects. If a client has trust in a supplicr who
+has done saustactory work in the past, they are more likely to use that company again, particularly if the new
+requirement builds on functionality already delivered. It is much more expensive to acquire new clients than
+it is to retain existing oncs.
+1.14 What is Management?
+We have explored some of the special characteristics of software. We now look at the ‘management’ aspect
+of software project management. It has been suggested that management involves the following activities:
+_e’ Planning -- deciding what is to be done
+e Organizing — making arrangements
+e Staffing — selecting the right people for the job etc.
+e Directing — giving instructions
+a onveing — checking on progress
+Controlling — taking action to remedy hold-ups
+e Innovating — coming up with new solutions
+e Representing — liaising with clients, users, developer, suppliers and other stakeholders
+—_
+Paul Duggan is the manager of a software development section. On Tuesday at 10.00 a.m. he and his
+fellow section heads have a meeting with their group manager about the staffing requirements for
+the coming year. Paul has already drafted a document ‘bidding’ for staff. This is based on the work
+planned for his section for the next year. The document is discussed at the meeting. At 2.00 p.m. Paul
+has a meeting with his senior staff about an important project his section is undertaking. One of the
+programming staff has just had a road accident and will be in hospital for some time. It is decided that
+the project can be kept on schedule by transferring another team member from less urgent work to this
+project. A temporary replacement is to be brought in to do the less urgent work but this may take a week
+or $0 to arrange. Paul has to phone both the hu .
+ih for whom th the human resources manager about getting a replacement and
+¢ user for whom the Iess urgent work is being done, explaining why it is likely to be delayed
+Identify which of the cight management ibilities li .
+points during his day. & & responsibilities listed above Paul was responding to at different
+a a
+Much of the project manager's time is spent on onl wee
+. . ° . y three of th etry ar) . .
+planning, monitoring, and contro], The time period during which these activities ee varried ou Shiota
+in Figure 1,5. It shows that project management is carri € camied out is indicated
+Carried out over three well-defined stages or processes,
+Scanned by CamScanner

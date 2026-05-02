@@ -1,41 +1,62 @@
-Overview 7
-“scessyCctnDDTERO SUCESUCCSUC RO
-which by line 8 equals
-qpoc(SucoBUCASUCCEUCEIZERO”
-Of course, this is not the way to implement addition. In practice We
-use bit strings which is data structure that is usually provided on
-our computers. But however the ADD operation is implemented, it
-must obey these rules. Hopefully, this motivates the following definition.
-Definition: A data structure is a set of domains 2, @ designated domain
-deZ, a set of functions § and a set of axioms wg. The triple (2 oe)
-denotes the data structure d and it will usually be abbreviated by writing
-d.
-In the previous example
+https://abdullahsuratl github. lo/bscit
 
-d = natno, g = {natno, poolean}
-$F = NERO ,ISZERO SUCC.AD™
-a = {lines 7 thru 10 of the structure NATNO}
+Introduction to Software Project Management 13
+1.11 Setting Objectives
+Among all these stakeholders are those who actually own the project. They control the financing of the
+project. They also set the objectives of the project. The objectives should define what the project team must
+achieve for project success. Although different stakcholders have different motivations, the project objectives
+identify the shared intentions for the project. —
+Objectives focus on the desired outcomes of the project rather than the tasks within it — they are the “post- |
+conditions’ of the project. Informally the objectives could be written as a set of statements following the '
+opening ‘words:'the project will be a success if... .' Thus one statement in a set of objectives might be
+*customers can order our products online’ rather than ‘to build an e-commerce website’. There is often more
+than onc way to meet an objective and the more possible routes to success the better. |
+There may be several stakeholders, including users in different business areas, who might have some claim
+to project ownership. In such a case, a project authority needs to be explicitly identified with overall authority
 
-The set of axioms describe the semantics of the operations. The form
+" Projectauthon
 
-: in which we choose to write the axioms is important. Our goal here
-is to write the axioms in a representation independent way. Then, we
-discuss ways of implementing the functions using 3 conventional
-programming janguage-
+over the project.
+This authority is often a project steering committee (or project board or project oe rer pid
+management board) with overall responsibility for setting, monitoring and modifying opment ana manage-
+objectives. The project manager runs the project on a day-to-day basis, but regularly —_ ment representatives.
 
-An implementation of a data structure d is a mapping from d to a
-set of other data structures e. This mapping specifies how every object
-of d is to be represented by the objects of ¢@. Secondly, it requires
-that every function of d must be written using the functions of the
-implementing data structures ¢- Thus we Say that integers are represented
-by bit strings, poolean is represented by zero and one, an array 1S
+. . ——______g
+reports to the stecring committee. \
+Sub-objectives and goals
 
-represented by a set of consecutive words in memory-
+. « o ° oe. o . . » oo”
+An effective objective for an individual must be something that is within the control “Defining sub-objectives
+of that individual. An objective might be that the software application produced must —_— requires assumptions
+pay for itself by reducing staff costs. As an overall business objective this might be spective tobe
+reasonable. For software developers it would be unreasonable as any reduction in achieved.
+operational staff costs depends not just on them but on the operational management of -——————————e
+the delivered system. A more appropriate goal or sub-objective for the software developers would be to keep
+development costs within a certain budget.
+We can say that in order to achieve the objective we must achieve certain goals or sub-objectives first. These
+are steps on the way to achieving an objective, just as goals scored in a football match are steps towards the
+objective of winning the match. Informally this can be expressed as a set of statements following the words
+‘To reach objective. . ., the following must be in place. .
 
-In current parlance the triple (BF wat) is referred to as an abstract
-data type. It is called abstract precisely pecause the axioms do not
-imply a form of representation. Another Way of viewing the implementa-
-tion of a data structure is that it is the process of refining an abstract
-data type until all of the operations are expressible in terms of directly
-executable functions. But at the first stage a data structure should be
-designed so that we know what it does, put not necessarily how it
+sare CS eo
+
+The mnemonic SMART is sometimes used to describe well-defined objectives;
+
+Specific Effective objectives are concrete and well defined, Vague aspirations ©7Fis alll eaves a prob-
+such as ‘fo improve customer relations’ are unsatisfactory. Objectives should be —_ tem about the level at
+defined so that it is obvious to all whether the project has been successful, which the ae should
+
+A . be sel, e.g. why, Say, a
+
+e Measurable Ideally there should be measures of effectiveness which tell us how —_50% reduction in com-
+
+- successful the project has been. For example, ‘to reduce customer complaints’ plaints and not 40% or
+would be more satisfactory as an objective than ‘fo improve customer relations’ . 60%
+
+The measure can, in some cases, be an answer to simple yes/no question, e.g.
+*Did we install the new software by I June?’
+
+e Achievable It must be within the power of the individual or group to achieve the objective.
+
+— https://abdullahsuratl github.lo/bscit .
+Scanned by CamScanner

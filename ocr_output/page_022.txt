@@ -1,29 +1,48 @@
-Sparks 9
-try to attach a meaning. Several cute ideas have been suggested, such
-as
-
-Structured Programming: A Reasonably Komplete Set
-or
-
-Smart Programmers Are Required To Know SPARKS.
-
-SPARKS contains facilities to manipulate numbers, boolean values
-and characters. The way to assign values is by the assignment statement
-variable <— expression.
-In addition to the assignment statement, SPARKS includes statements
-for conditional testing, iteration, input-output, etc. Several such state-
-ments can be combined on a single line if they are separated by a
-semi-colon. Expressions can be either arithmetic, boolean or of character
-type. In the boolean case there can be only one of two values,
-true or false.
-In order to produce these values, the logical operators
-and, or, not
-are provided, plus the relational operators
-<,%,5,=,4,2,4,>
-A conditional statement has the form
-if cond then S, if cond then S,
-or
-else S,
-
-where cond is a boolean expression and S,, S, are arbitrary groups
-of SPARKS statements. If S, or S, contains more than one statement,
+https://abdullahsuratl github.lo/bscit
+Introduction to Software Project Management 15
+Any project plan must ensure that the business case is kept intact, For example:
+e that development costs are not allowed to rise to a level which threatens to excced the value of benefits;
+e that the features of the system are not reduced to a level where the expected benefits cannot be realized;
+e that the delivery date is not delayed so that there is an unacceptable loss of benefits.
+1.13 Project Success and Failure
+The project plan should be designed to ensure project success by preserving the “A good introduction to
+business case for the project. However, every non-trivial project will have problems, the Issues discussed
+and at what stage do wesay that a project is actually a failure? Because different Ay can be found 0
+stakcholders have different interests, some stakeholders in a project might see itas a —_ Levy (1997) ‘Mapping
+success while others do not. the dimensions of proj-
+ect success’ Project
+Broadly speaking, we can distinguish between project objectives and business 312. Joumal
+objectives. The project objectives are the targets that the project team is expected to :
+achieve. In the case of software projects, they can usually be summarized as delivering:
+e The agreed functionality
+e The required level of quality
+e Ontime
+e Within budget
+A project could meet these targets but the application, once delivered could fail to meet the business case. A
+computer game could be delivered on time and within budget, but might then not sell. A commercial website
+used for online sales could be created successfully, but customers might not use it to buy products, because
+they could buy the goods more cheaply elsewhere.
+We have seen that in business terms it can generally be said that a project is asuccessif 7 saccessment of
+the value of benefits exceeds the costs. We have also seen that while project managers _the value of project
+. ~~ ont costs. the value of the benefits o benefits is explo
+have considerable control over development costs, the value of the benefits of the nat a a Semth hd
+project < déliverables is dependent on external factors such as the number of customers. Chapter 2.
+Project objectives still have some bearing on eventual business success. As we will —_____——__—e
+see in Chapter 2, increasing development costs reduce the chances of the delivered
+product being profitable. A delay in completion reduces the amount of time during which benefits can be
+generated and diminishes the value of the project.
+A project can be a success on delivery but then be a business failure, On the other hand, a project could be
+late and over budget, but its deliverables could still, over time, generate benefits that outweigh the initial
+expenditure.
+Some argue that the possible gap between project and business concerns can be reduced by having a broader
+view of projects that includes business issues. For example, the project management *’For a wider discussion
+of an e-commerce website implementation could plan activities such as market of the apnoea’
+* ° ° . a °
+surveys, competitor analysis, focus groups, prototyping, and evaluation by typical ects, see M. Engwall
+potential users — all designed to reduce business risks. (2003) ‘No project is an
+: . . island: linking projects
+Because the focus of project management is, not unnaturally, on the immediate to history and context
+project, it may not be seen that the project is actually one of a sequence. Later projects Resear Policy 32
+benefit from the technical skills learnt on earlier projects. Technical learning will " °
+https://abdullahsuratl github.lo/bscit
+Scanned by CamScanner

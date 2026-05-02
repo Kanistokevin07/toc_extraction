@@ -1,4 +1,4 @@
-import fitz          # pymupdf
+"""import fitz          # pymupdf
 import pdfplumber
 import cv2
 import pytesseract
@@ -21,4 +21,14 @@ print("✓ Tesseract   :", version)
 reader = easyocr.Reader(['en'], verbose=False)
 print("✓ EasyOCR     : ok")
 
-print("\nAll good — ready to build!")
+print("\nAll good — ready to build!")"""
+
+
+from google import genai
+
+client = genai.Client(api_key="AIzaSyBn31hjX73-4GmUR-Fst-UgaMBldalujCM")
+
+models = client.models.list()
+
+for m in models:
+    print(m.name)

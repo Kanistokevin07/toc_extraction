@@ -1,24 +1,33 @@
-Sparks 13
-if-then-else statements, It has the form
-case
-: cond1: S,
-:cond2: S,
-:condn: S,
-: else: S,,,
-end
-where the S,, 1 = i = n+ 1 are groups of SPARKS statements.
-The semantics is easily described by the following flowchart:
-alse false fal
-true true
-The else clause is optional.
-A complete SPARKS procedure has the form
-procedure NAME (parameter list)
-S
-end
-A procedure can be used as a function by using the statement
-return (expr)
-where the value of expr is delivered as the value of the procedure.
-The expr may be omitted in which case a return is made to the calling
-procedure. The execution of an end at the end of procedure implies a
-return. A procedure may be invoked by using a call statement
-call NAME (parameter list)
+https://abdullahsuratl github.lo/bscit
+Introstuction to Software Project Management 19
+( The Actions
+| realworld )~
+Data
+collection
+Data
+Information
+Making
+decisions/plans
+Ficure 1.6 The project control cycle
+
+is always the danger that while the completion date for the one branch is pulled back to before the overall
+target date, the date for the branch from which staff are being moved is pushed forward beyond that date. The
+project manager would need to calculate carefully what the impact would be in moving staff from particular
+branches. This is modelling the consequences of a potential solution. Several different proposals could be
+modelled in this way before one was chosen for implementation.
+Having implemented the decision, the situation needs to _be kept under review by collecting and processing
+further progress details. For instance, the next time that progress is reported, a branch to which staff have been
+transferred could still be behind in transferring details. This might be because the reason why the branch has
+got behind in transferring details is because the manual records are incomplete and another department, for
+whom the project has a low priority, has to be involved in providing the missing information. In this case,
+transferring extra staff to do data inputting will not have accelerated data transfer.
+It can be seen that a project plan is dynamic and will need constant adjustment during the execution of the
+project. Courses and books on project management (such as this one) often focus considerable attention
+on project planning. While this is to be expected, with nearly all projects much more time is Spent actually
+doing the project rather than planning it. A good plan provides a foundation for a good project, but is nothing
+without intelligent execution. The original plan will not be sct in stone but will be modified to take account
+of changing circumstances.
+
+https://abdullahsuratl github. lo/bscit
+
+Scanned by CamScanner

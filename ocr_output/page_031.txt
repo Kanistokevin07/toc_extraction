@@ -1,47 +1,55 @@
-18 Introduction
+https://abdullahsuratl github.lo/bscit
+24 Software Project Management
+In this context, the project manager plays a key role in product base lining and version control. This has
+made change management a crucial responsibility of the project manager. Change management is also
+known as configuration management. We will discuss change management in Chapter 9.
 
-number of times a branch was taken, (iii) the smallest and largest values
-of all variables. As a minimal requirement, the test data you construct
-should force every statement to execute and every condition to assume
-the value true and false at least once.
+@ Requirements Management In modem software development practices, there is a conscious effort to
+develop software such that it would, to a large extent, meet the actual requirements of the customer. A
+basic premise of these modern development methodologies is that at the start of a project the customers
+are often unable to fully visualize their exact needs and are only able to determine their actual require-
+ments after they start using the software. From this view point, modern software development practices
+advocate delivery of software in increments as and when the increments are completed by the devel-
+opment team, and actively soliciting change requests from the customer as they use the increments of
+the software delivered to them. In fact, a few customer representatives are included in the development
+team to foster close every day interactions with the customers. Contrast this with the practice followed
+in older development methodologies, where the requirements had to be identified upfront and these were
+then ‘signed off" by the customer and ‘frozen’ before the development could start. Change requests from
 
-One thing you have forgotten to do is to document. But why bother
-to document until the program is entirely finished and correct? Because
-for each procedure you made some assumptions about its input and
-output. If you have written more than a few procedures, then you
-have already begun to forget what those assumptions were. If you note
-them down with the code, the problem of getting the procedures to
-work together will be easier to solve. The larger the software, the more
-crucial is the need for documentation.
+the customer after the start of the project were discouraged. Consequently, at present in most projects,
+the requirements change frequently during the development cycle. It has, therefore, become necessary
+to properly manage the requirements, so that as and when there is any change in requirements, the latest
+and up-to-date requirements become available to all. Requirements management has therefore become
+a systematic process of controlling changes, documenting, analysing, tracing, prioritizing requirements
+and then communicating the changes to the relevant stakeholders, By the term controlling changes,
+we mean that every change request is well managed, and problems such as accidental overwriting of a
+newer document with an older document are avoided.
 
-The previous discussion applies to the construction of a single procedure
-as well as to the writing of a large software system. Let us concentrate
-for a while on the question of developing a single procedure which
-solves a specific task. This shifts our emphasis away from the management
-and integration of the various procedures to the disciplined formulation
-of a single, reasonably small and well-defined task. The design process
-consists essentially of taking a proposed solution and successively refining
-it until an executable program is achieved. The initial solution may
-be expressed in English or some form of mathematical notation. At
-this level the formulation is said to be abstract because it contains no
-details regarding how the objects will be represented and manipulated
-in a computer. If possible the designer attempts to partition the solution
-into logical subtasks. Each subtask is similarly decomposed until all
-tasks are expressed within a programming language. This method of
-design is called the top-down approach. Inversely, the designer might
-choose to solve different parts of the problem directly in his programming
-language and then combine these pieces into a complete program. This
-is referred to as the bottom-up approach. Experience suggests that the
-top-down approach should be followed when creating a program.
-However, in practice it is not necessary to unswervingly follow the
-method. A look ahead to problems which may arise later is often useful.
+e Release Management Release management concems planning, prioritizing and controlling the
+different releases of a software. For almost every software, multiple releases are made during its life
+cycle. Starting with an initial release, releases are made each time the code changes. There are several
+reasons as to why the code needs to change. These reasons include functionality enhancements, bug
+fixes and improved execution speed. Further, modern development processes such as the agile devel-
+opment processes advocate frequent and regular releases of the software to be made to the customer
+during the software development. Starting with the release of the basic or core functionalities of the
+software, more complete functionalities are made available to the customers every couple of weeks. In
+this context, effective release management has become important.
 
-Underlying all of these strategies is the assumption that a language
-exists for adequately describing the processing of data at several abstract
-levels. For this purpose we use the language SPARKS coupled with
-carefully chosen English narrative. Such an algorithm might be called
-pseudo-SPARKS. Let us examine two examples of top-down program
-development.
+e Risk Management In modern software project management practices, effective risk management is
+considered very important to the success of a project. A risk is any negative situation that may arise
+as the project progresses and may threaten the success of the project. Every project is susceptible to
+a host of risks that could usually be attributed to factors such as technology, personnel and customer.
+Unless proper risk management is practised, the progress of the project may get adversely affected.
+Risk management involves identification of risks, assessment of the impacts of various risks, prioriti-
+zation of the risks and preparation of risk-containment plans. We discuss various aspects of project risk
+management in Chapter 7.
 
-Suppose we devise a program for sorting a set of n = | distinct integers.
-One of the simplest solutions is given by the following
+e Scope Management Once a project gets underway, many requirement change requests usually arise.
+Some of these can be attributed to the customers and the others to the development team. As we have
+already mentioned, modern development practices encourage the customer to come up with change
+requests. While all essential changes must be carried out, the superfluous and ornamental changes
+must be scrupulously avoided. However, while accepting change requests, It must be remembered that
+the three critical project parameters: scope, schedule and project cost are interdependent and are very
+
+https://abdullahsuratl github.lo/bscit
+Scanned by CamScanner

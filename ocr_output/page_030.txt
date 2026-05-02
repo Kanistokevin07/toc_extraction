@@ -1,32 +1,47 @@
-How to Create Programs 17
-72
-months
-26
-24
-14
-original | l2
-estimate i
-A B Cc
-Figure 1.3: History of three FORTRAN compilers
-the truth, but in every case they underestimated. Unwarrented optimism
-is a familiar disease in computing. But prior experience is definitely
-helpful and the time to build the third compiler was less than one fifth
-that for the first one.
-
-(v) Verification. Verification consists of three distinct aspects: program
-proving, testing and debugging. Each of these is an art in itself. Before
-executing your program you should attempt to prove it is correct. Proofs
-about programs are really no different from any other kinds of proofs,
-only the subject matter is different. If a correct proof can be obtained,
-then one is assured that for all possible combinations of inputs, the
-program and its specification agree. Testing is the art of creating sample
-data upon which to run your program. If the program fails to respond
-correctly then debugging is needed to determine what went wrong and
-how to correct it. One proof tells us more than any finite amount of
-testing, but proofs can be hard to obtain. Many times during the proving
-process errors are discovered in the code. The proof can’t be completed
-until these are changed. This is another use of program proving, namely
-as a methodology for discovering errors. Finally there may be tools
-available at your computing center to aid in the testing process. One
-such tool instruments your source code and then tells you for every
-data set: (i) the number of times a statement was executed, (ii) the
+yO EER
+; https://abdullahsuratl github, lo/bscit
+Intaafucton ty Setar Provect Mensarmaet 23
+Project closure
+Project closury involves completing the release of all the required deliverables to the customer along with the
+, necesmary documentation, Subsequently, all the project resources are released and supply agreements with the
+! Wadors are terminated and all the pending payments are completed. Finally, a postimplementanen review ry
+undertaken ta analyse the project performance and to list the lessens Ieamt fer use in future pryects.
+1.17 Traditional versus Modern Project Management Practices
+Over the last two decades, the basic approach taken by the software industry to develop software has undergane
+a radical change. Handly any software is being developed from scratch any more. Software development
+projects are increasingly being based on cither tailoring some existing product or reusing contain pre-built
+libraries. In either case, two important goals of recent life cycle models are maximization of code reuse and
+compression of project durations. Other goals include facilitating and accommodating client feedbacks and
+customer participation in project development work, and incremental delivery of the product with evolving
+functionalities. Change requests from customers are encouraged, rither than circumvented, Clients on the
+other hand, are demanding further reductions in product delivery times and costs. These recent developments
+have changed project management practices in many significant ways, In the following section, we will |
+discuss some important differences between modem project management practices and traditional practices. |
+e Planning Incremental Delivery Few decades ago, projects were much simpler and therefore more
+predictable than the present day projects. In those days, projects were planned with sufficient detail.
+much before the actual project execution started. After the project initiation, monitoring and contre]
+activities were carried out to ensure that the project execution proceeded as per plan. Now, projects
+are required to be completed over a much shorter duration, and rapid application development and
+deployment are considered key strategies. The traditional long-term planning has given way to adaptive
+short-term planning. Instead of making a long-term project completion plan, the project manager now .
+plans all incremental deliveries with evolving functionalities. This type of project management is
+often called extreme project management. Extreme project management is a highly fleaible approach
+to project management that concentrates on the human side of project management (¢.g.. managing
+project stakeholders), rather than formal and complex planning and monitoring techniques.
+Py Quality Management Of late, customer awareness about product quality has increased signiticandy.
+Tasks associated with quality management have become an important responsibility of the project
+manager. The key responsibilities of a project manager now include assessment of project progress
+and tracking the quality of all intermediate artifacts. We will discuss quality management issues in
+Chapter 13.
+e Change Management Earlier, when the requirements were signed off by the customer, any changes
+fo the requirements were rarely entertained. Customer suggestions are now actively being solicital
+and incorporated throughout the development process. To facilitate customer feedback, incremental
+delivery models are popularly being used. Product development is being carried out through a series of
+product versions implementing increasingly greater functionalities, Also customer feedback is solicited
+on each version for incorporation. This has made it necessary for an organization to keep track of the
+various versions and revisions through which the product develops. Another reason for the increased
+importance of keeping track of the versions and revisions is the following. Application development
+through customization has become a popular business model. Therefore, evistence of a lange number of
+versions of a product and the need to support these by a development organization has become common.
+https://abdullahsuratl github, lo/bscit
+Scanned by CamScanner

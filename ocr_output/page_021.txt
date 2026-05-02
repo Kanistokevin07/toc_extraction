@@ -1,45 +1,43 @@
-8 Introduction
-
-will do it. This division of tasks, called specification and implementation,
-
-is useful because it helps to control the complexity of the entire process.
-
-1.2 SPARKS
-
-The choice of an algorithm description language must be carefully made
-
-because it plays such an important role throughout the book. We might
-
-begin by considering using some existing language; some names which
-come immediately to mind are ALGOL, ALGOL-W, APL, COBOL,
-FORTRAN, LISP, PASCAL, PL/I, SNOBOL.
-
-Though some of these are more preferable than others, the choice
-of a specific language leaves us with many difficulties. First of all,
-we wish to be able to write our algorithms without dwelling on the
-idiosyncracies of a given language. Secondly, some languages have
-already provided the mechanisms we wish to discuss. Thus we would
-have to make pretense to build up a capability which already exists.
-Finally, each language has its followers and its detractors. We would
-rather not have any individual rule us out simply because he did not
-know or, more particularly, disliked to use the language X.
-
-Furthermore it is not really necessary to write programs in a language
-for which a compiler exists. Instead we choose to use a language which
-is tailored to describing the algorithms we want to write. Using it we
-will not have to define many aspects of a language that we will never
-use here. Most importantly, the language we use will be close enough
-to many of the languages mentioned before so that a hand translation
-will be relatively easy to accomplish. Moreover, one can easily program
-a translator using some existing, but more primitive higher level language
-as the output (see Appendix A). We call our language SPARKS. Figure
-1.2 shows how a SPARKS program could be executed on any machine.
-
-PROGRAM x x CODE
-
-RANSLATION
-Figure 1.2: Translation of SPARKS
-
-Many language designers choose a name which is an acronym. But
-SPARKS was not devised in that way; it just appeared one day as
-Athena sprang from the head of Zeus. Nevertheless, computerniks still
+14 Software Project Management CO
+https://abdullahsuratl github, io/bseit
+e Relevant The objective must be relevant to the true purpose of the project.
+e Time constrained There should be a defined point in time by which the objective should have been
+achieved.
+. >
+Exercise 1.8 EV)
+a Ease a,
+Bearing in mind the above discussion of objectives, comment on the appropriateness of the wording of
+each of the following ‘objectives’ for software developers:
+(i) To implement the new application on time and within budget
+(ii) To implement the new software application with the fewest possible software errors that might lead
+to operational failures
+(iii) To design a system that is user-friendly
+(iv) To produce full documentation for the new system
+Pe ieee aaah
+Measures of effectiveness
+OThese concepts are Measures of effectiveness provide practical methods of checking that an objective
+explained more fully has been met. ‘Mean time between failures’ (mtbf) might, for example, be used to
+in Chapter 13 on soft measure reliability. This is a performance measurement and, as such, can only be
+; 5 taken once the system is operational. Project managers want to get some idea of the
+performance of the completed system as it is being constructed. They will therefore
+seek predictive measures. For example, a large number of errors found during code inspections might indicate
+potential problems with reliability later.
+=>
+Exercise 1.9 ew)
+Identify the objectives and sub-objectives of the Briightmouth College payroll project. What measures
+of effectiveness could be used to check the success in achieving the objectives of the project?
+1.12 The Business Case
+The business case Most projects need to have a justification or business case: the effort and expense of
+should be established — pushing the project through must be seen to be worthwhile in terms of the benefits
+at the time of the pro; shar will eventually be felt. A is wi
+ects feasibility study. will ¢ y be felt. cost-benefit analysis will often be part of the project’s
+Chapter 2 explains feasibility study. This will itemize and quantify the project’s costs and benefits. The
+the idea or a uses benefits will be affected by the completion date: the sooner the project is completed,
+_ lg the sooner the benefits can be experienced. The quantification of benefits will_often
+require the formulation of a business model which explains how the new application
+can generate the claimed benefits. .
+A simple example of a business moe is that a new web-based application might allow customers from all
+over the world to order a firm’s products via the internet, increasing sales and thus increasing revenue and
+profits.
+“abdul {github Jo/bscl
+Scanned by CamScanner

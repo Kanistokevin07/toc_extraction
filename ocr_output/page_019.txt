@@ -1,50 +1,62 @@
-6 Introduction
+https://abdullahsuratl github.lo/pscit
 
-object. This implies that we must specify the set of operations and
-show how they work. For integers we would have the arithmetic
-operations +, —, *, / and perhaps many others such as mod, ceil,
-floor, greater than, less than, etc. The data object integers plus a
-description of how +, —, *, /, etc. behave constitutes a data structure
-definition.
+12 Software Project Management
+The project charter is usually a short document that is only a couple of pages Jong and typically contains the
+following:
 
-To be more precise lets examine a modest example. Suppose we
-want to define the data structure natural number (abbreviated natno)
-where natno = {0,1,2,3, ...} with the three operations being a test for
-zero addition and equality. The following notation can be used:
+e Overall objectives of the project and the broad items that are within the scope of the project and those
 
-structure NA TNO
-- I declare ZERO( ) > natno
-2 ISZERO(natno) — boolean
-3 SUCC(natno) — natno
-4 ADD{(natno, natno) > natno
-5 EQ(natno, natno) > boolean
-6 for all x, y € natno let
-7 ISZERO(ZERO) ::= true; ISZERO(SUCC(x)) ::= false
-8 ADD(ZERO, y) :: = y, ADD(SUCC(®), y) 2: =
-SUCC(ADD(, y))
-9 EQ(x%, ZERO) :: = if ISZERO(x) then true else false
-10 EQ(ZERO, SUCC(y)) :: = false
-EQ(SUCC(x), SUCC(y)) :: = EQ(. y)
-11 end ;
-end NATNO
+that are out of scope.
 
-In the declare statement five functions are defined by giving their
-names, inputs and outputs. ZERO is a constant function which means
-it takes no input arguments and its result is the natural number zero,
-written as ZERO. ISZERO is a boolean function whose result is either
-true or false. SUCC stands for successor. Using ZERO and SUCC
-we can define all of the natural numbers as: ZERO, 1 = SUCC(ZERO),
+© The time schedule in terms of the start date and the expected completion date of the project.
 
-2 = SUCC(SUCC(ZERO)), 3 = SUCC(SUCC(SUCC(ZERO))), ... etc.
+© The important stakeholders and their responsibilities towards the project.
 
-The rules on line 8 tell us exactly how the addition operation works.
+e Overview of the resources that will be needed for the project and the overall budget.
 
-For example if we wanted to add two and three we would get the following
+@ Major risks to the project and the broad strategies that can be adopted for overcoming those.
 
-sequence of expressions:
-ADD(SUCC(SUCC(ZERO)), SUCC(S UCC(SUCC(ZERO))))
+1.10 Stakeholders
 
-which, by line 8 equals
-SUCC(ADD(SUCC(ZERO),SUCC(SUCC(SUCC(ZERO))))) ;
+These are people who have a stake or interest in the project. Their early identification is important as you need
 
-which, by line 8 equals
+to set up adcquate communication channels with them. Stakeholders can be categorized as:
+
+e Internal to the project team This means that they will be under the direct managerial control of the
+project leader,
+
+e External to the project team but within the same organization For example, the project leader might
+need the assistance of the users to carry out systems testing. Here the commitment of the people
+involved has to be negotiated.
+
+e External to both the project team and the organization External stakeholders may be customers (or
+users) who will benefit from the system that the project implements. They may be contractors who will
+carry out work for the project. The relationship here is usually based on a contract.
+
+°Sw.Bochmand Different types of stakeholders may have different objectives and one of the jobs of
+R. Ross, ‘Theory W the project leader is to recognize these different interests and to be able to reconcile
+software projectman- —_ them. For example, end-users may be concemed with the ease of use of the new appli-
+agement: principles : : . :
+and examples’, inB.w, Cation, while their managers may be more focused on staff savings. The project leader
+Boehm (ed.) (1989) therefore needs to be a good communicator and negotiator. Boehm and Ross proposed
+SON IEE Soret a ‘Theory W" of software project management where the manager concentrates on
+Society Press. creating situations where all parties benefit from a project and therefore have an
+
+—_—__—__———e_ interest in its success. (The ‘W’ stands for ‘win—win’.)
+
+OTheroleandfonnat..- Project managers can sometimes miss an important stakeholder group, especially
+of communication in unfamiliar: business contexts. These could be departments supplying important
+plans will be explained services that are taken for granted
+In greater detall In .
+ro neeple in software Given the importance of coordinating the efforts of stakeholders, the recommended
+environments. practice is for a communication plan to be created at the start of a project.
+
+—___—__—_-0
+
+— 4
+Exercise 1.7
+ep
+Identify the stakeholders in the Brightmouth College payroll project.
+a
+https://abdullahsuratl github.lo/pscit
+Scanned by CamScanner

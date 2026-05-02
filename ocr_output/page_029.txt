@@ -1,47 +1,61 @@
-16 Introduction
+https:/abdullahsuratl github lo/bscit
+22 Software Project Management
+well as the competency of the vendor. In government organizations, the term request for tender (RFT)
+is usually used in place of RFQ, RFT is similar to RFQ; however, in RFT the bidder needs to deposit a
+tender fee in order to participate in the bidding process.
 
-basic operations to perform on it (such as print the maze, add two
-polynomials, or find a name in the list). Assume that these operations
-already exist in the form of procedures and write an algorithm which
-solves the problem according to the requirements. Use a notation which
-is natural to the way you wish to describe the order of processing.
+e Request for proposal (RFP) Many times it so happens that an organization has reasonable under-
 
-(iii) Analysis. Can you think of another algorithm? If so, write it
-down. Next, try to compare these two methods. It may already be
-possible to tell if one will be more desirable than the other. If you
-can’t distinguish between the two, choose one to work on for now
-and we will return to the second version later.
+Standing of tlie problem to be solved, however it does not have a good grasp of the solution aspects,
+That is, the organization may not have sufficient knowledge about the different features that are to be
+implemented, and may lack familiarity with the possible choices of the implementation environment,
+such as, databases, operating systems, client-server deployment, etc. In this case, the organization may
+solicit solution proposals from vendors. The vendors may submit a few alternative solutions and the
+approximate costs for each solution. In order to develop a better understanding, the requesting organi-
+zation may ask the vendors to explain or demonstrate their solutions. It needs to be understood that the
+purpose of RFP is to get an understanding of the alternative solutions possible that can be deploycd and
+not vendor selection. Based on the RFP process, the requesting organization can form a clear idea of
+the project solutions required, based on which it can form a statement work (SOW) for requesting RFQ
+from the vendors.
 
-(iv) Refinement and coding. You must now choose representations
-for your data objects (a maze as a two dimensional array of zeros
-and ones, a polynomial as a one dimensional array of degree and
-coefficients, a list of names possibly as an array) and write algorithms
-for each of the operations on these objects. The order in which you
-do this may be crucial, because once you choose a representation, the
-resulting algorithms may be inefficient. Modern pedagogy suggests that
-all processing which is independent of the data representation be written
-out first. By postponing the choice of how the data is stored we can
-try to isolate what operations depend upon the choice of data representa-
-tion. You should consider alternatives, note them down and review
-them later. Finally you produce a complete version of your first program.
+e Request for Information (RFI) An organization soliciting bids may publish an RFI. Based on the
+vendor response to the RFI, the organization can assess the competencies of the vendors and shortlist
+the vendors who can bid for the work. However, it must be noted that vendor selection is seldom done
+based on RFI, but the RFI response from the vendors may be used in conjunction with RFP and RFQ
+responses for vendor selection.
 
-It is often at this point that one realizes that a much better program
-could have been built. Perhaps you should have chosen the second
-design alternative or perhaps you have spoken to a friend who has
-done it better. This happens to industrial programmers as well. If you
-have been careful about keeping track of your previous work it may
-not be too difficult to make changes. One of the criteria of a good
-design is that it can absorb changes relatively easily. It is usually hard
-to decide whether to sacrifice this first attempt and begin again or just
-continue to get the first version working. Different situations call for
-different decisions, but we suggest you eliminate the idea of working
-on both at the same time. If you do decide to scrap your work and
-begin again, you can take comfort in the fact that it will probably be
-easier the second time. In fact you may save as much debugging time
-later on by doing a new version now. This is a phenomenon which
-has been observed in practice.
+Project planning
+An important outcome of the project initiation phase is the project charter. During the project planning phase,
+the project manager carries out several processes and creates the following documents:
+© Project plan This document identifies the project tasks, and a schedule for the project tasks that
+assigns project resources and time frames to the tasks.
+° Resource pian It lists the resources, manpower and equipment that would be required to execute the
+project.
+e Financial plan It documents the plan for manpower, equipment and other costs.
+e Quality plan Plan of quality targets and control plans are included in this document.
+e Risk plan This document lists the identification of the potential risks. their proritirati
+for the actions that would be taken to contain the different risks, proniuization and a plan
 
-The graph in figure 1.3 shows the time it took for the same group
-to build 3 FORTRAN compilers (A, B and C). For each compiler there
-is the time they estimated it would take them and the time it actually
-took. For each subsequent compiler their estimates became closer to
+Project execution
+
+In this phase the tasks are executed as per the project plan developed during the planni .
+
+of management processes are undertaken to ensure that the tasks are executed as ert lan: past. ‘ vind
+
+control processes are executed to ensure that the tasks are executed plan. Monitoring a
+
+«gs sati ed as per plan and corrective actions are
+
+initiated whenever any deviations from the plan are noticed. However, th j .
+sodi , Cr, Me project plan may have to be revised
+
+periodically to accommodate any changes to the project plan that may arise on account of chan is
+
+risks and various events that occur during the project execution. Quality of the d li . Be requests,
+
+. . ¥ of the deliverables is ensured through
+execution of proper processes. Once all the deliverables are produced and accepted by the cust th
+project execution phase completes and the project closure phase starts. stomer, te
+
+https://abdullahsuratl github lo/bscit
+Scanned by CamScanner

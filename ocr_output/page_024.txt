@@ -1,35 +1,39 @@
-Sparks 11
-viewpoint, we should not take it to mean that this is the way to program.
-On the contrary, the more expressive our languages are, the more we
-can accomplish easily. So we will provide other statements such as
-a second iteration statement, the repeat-until,
-
-repeat
-
-S
-
-until cond
-
-which has the meaning
-LS] -<Renp tae
-true
-
-In contrast to the while statement, the repeat-until guarantees that
-the statements of S will be executed at least once. Another iteration
-statement is
-
-loop
-
-S
-
-forever
-which has the meaning
-As it stands, this describes an infinite loop! However, we assume that
-this statement is used in conjunction with some test within S$ which
-will cause an exit. One way of exiting such a loop is by using a
-
-go to label
-statement which transfers control to ‘‘label.’’ Label may be anywhere
-in the procedure. A more restricted form of the go to is the command
-
-exit
+https//abdullahsuratl github.lo/bsclt
+Intastuction to Soptuvire Project Management 17
+process i
+Executing 4 Controlting Projoct
+process procoss closing
+Project initiation Project execution ————— Projoct closing
+Ficure 1.5 Principal project management processes
+irrespective of the methodology used. In the project initiation stage, an initial plan is made. As the project
+starts, the project is monitored and controlled to proceed as planned, However, the initial plan is revised
+periodically to accommodate additional details and constraints about the project as they become available,
+Finally, the project is closed. In the project closing stage, all activities are logically completed and all contracts t
+are formally closed.
+Initial project planning is undertaken immediately after the feasibility study phase and before starting the |
+requirements analysis and specification process. Figure 1.5 shows this project initiation period. Initial project |
+planning involves estimating several characteristics of a project. Bused on these estimates, all subsequent
+project activities are planned. The initial project plans are revised periodically as the project progresses and
+more project data becomes available. Once the project execution starts, monitoring and control activities are
+taken up to ensure that the project execution proceeds as planned. The monitoring activity involves monitoring
+the progress of the project. Control activities are initiated to minimize any significant variation in the plan.
+Project planning is an important responsibility of the project manager. During project planning, the project
+Toanager needs to perform a few well-defined activities that have been outlined below. Note that we have
+given a very brief description of these activities in this chapter. We will discuss these activities in more detail
+in subsequent chapters. Several best practices have been proposed for software project planning activities. ‘
+In Chapter 3, we will discuss Step Wise, which is based on the popular PRINCE2 (PRojects IN Controlled
+Environments) method. While PRINCE2 is used extensively in the UK and Europe, similar software project
+management best practices have been put forward in the USA by the Project Management Institute’s
+‘PMBOK’ which refers to their publication ‘A Guide to the Project Management Body of Knowledge.’
+e Estimation The following project attributes are estimated.
+e Cost How much is it going to cost to complete the project?
+e Duration How long is it going to take to complete the project?
+e Effort How much effort would be necessary for completing the project?
+The effectiveness of all activities such as scheduling and staffing, which are planned ata later stage, depends
+on the accuracy with which the above three project parameters have been estimated. oo
+@ Scheduling Based on estimations of effort and duration, the schedules for manpower and other resources
+are developed.
+e Staffing Staff organization and staffing plans are made.
+h
+— https://abdullahsuratl github lo/bscit a4
+Scanned by CamScanner

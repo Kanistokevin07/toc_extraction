@@ -1,40 +1,42 @@
-20 Introduction
-Theorem: Procedure SORT(A,n) correctly sorts a set of n = 1 distinct
-integers, the result remains in A(i:n) such that A(1) < A(2) < ...
-< A(n).
-Proof: If nis one then by the definition of the SPARKS for statement,
-lines 3 thru 5 are not executed. Thus i = j = 1 and the interchange
-at line 6 has no effect. Suppose that the program works correctly for
-n— 1 inputs and SORT(A,n) is invoked, When i=1 the loop of lines
-3 thru 5 is executed for k = 2,3, ....zn. A value for jis determined such
-that A(j) < A(k), k = 2, ...,nusing common properties of integers. Either
-j = 1 or A(j) < A(1) so at line 6 A(j) has been determined as the
-smallest of n elements. It is interchanged with A(1). The program now
-continues with i = 2, ...,n but this is equivalent to sorting n — 1 integers
-which we assumed to work correctly. Since A(1) is never changed again,
-the algorithm correctly sorts all n integers. im)
-We observe at this point that the upper limit of the for-loop in line
-1 can be changed to n — 1 without damaging the correctness of the
-algorithm.
-From the standpoint of readability we can ask if this program is good.
-Is there a more concise way of describing this algorithm which will
-still be as easy to comprehend? Substituting while statements for the
-for loops doesn’t significantly change anything. Also, extra initialization
-and increment statements would be required. We might consider a
-FORTRAN version using the ANSI language standard
-IF (N. LE. 1) GO TO 100
-NMI =N-1
-DO 101 1 = 1, NM1
-J=I
-JPi=J+1
-DO 102 K = JPI, N
-IF (A(K).LT.AG)) J=K
-102 CONTINUE
-T=AD
-A(I) = AV)
-AQ) = T
-101 CONTINUE
-100 CONTINUE
-FORTRAN forces us to clutter up our algorithms with extra statements.
-The test for N = | is necessary because FORTRAN DO-LOOPS always
-insist on executing once. Variables NMI and JP1 are needed because
+26 Software Project Management nkesiabdulahsurat othub lalbsci
+e Project products: both deliverable products that the client will receive and intermediate products
+e Activities to be carried out
+e Resources to be used
+e Risks to the project
+© Management of the project, including
+@ organizational responsibilities
+@ management of quality
+& configuration management
+1. List the problems you experienced when you carried out a recent ICT-related assignment. Try to put
+these problems into some order of magnitude. For each problem consider whether there was some way
+in which the problem could have been reduced by better organization and planning by yourself.
+
+2. Identify the main types of personnel employed in an information systems department. For each stage
+of a typical IS development project, list the types of personnel who are likely to be involved.
+
+3. A public library is considering the implementation of a computer-based system to help administer book
+loans at libraries. Identify the stakeholders in such a project. What might be the objectives of such a
+project and how might the success of the project be measured in practical terms?
+
+4. A software house has developed a customized order processing system for a client. You are an employee
+of the software house that has been asked to organize a training course for the end-users of the system.
+At present, a user handbook has been produced, but no specific training material. A plan is now needed
+for the project which will set up the delivery of the training courses. The project can be assumed to have
+been completed when the first training course starts. Among the things that will need to be considered
+are the following:
+
+e Training materials will need to be designed and created ;
+e A timetable will need to be drafted and agreed
+e Date(s) for the course will need to be arranged
+e The people attending the course will need to be identified and notified
+e Rooms and computer facilities for the course will need to be provided
+(a) Identify the main stakeholders for this project.
+(b) Draw up objectives for this project.
+(c) For the objectives, identify the measures of effectiveness,
+(d) For each objective, write down sub-objectives or 80als and the stakeholders who will be respon-
+sible for their achievement. po
+5. A manager is in charge of a sub-project of a larger project. The sub-project requires the transfer of
+documents into a computer-based document retrieval system and their subsequent indexing so that they
+can be accessed via key-words. Optical character readers are to be used for the initial transfer but the
+text then needs to be clerically checked and corrected by staff. The Project is currently scheduled to
+Scanned by CamScanner

@@ -1,46 +1,43 @@
-14 Introduction
-
-Procedures may call themselves, direct recursion, or there may be
-a sequence resulting in indirect recursion. Though recursion often carries
-with it a severe penalty at execution time, it remains an elegant way
-to describe many computing processes. This penalty will not deter us
-from using recursion. Many such programs are easily translatable so
-that the recursion is removed and efficiency achieved.
-
-A complete SPARKS program isa collection of one or more procedures,
-the first one taken as the main program. All procedures are treated
-as external, which means that the only means for communication between
-them is via parameters. This may be somewhat restrictive in practice,
-but for the purpose of exposition it helps to list all variables explicitly,
-as either local or parameter. The association of actual to formal
-parameters will be handled using the call by reference rule. This means
-that at run time the address of each parameter is passed to the called
-procedure. Parameters which are constants or values of expressions
-are stored into internally generated words whose addresses are then
-passed to the procedure.
-
-For input/output we assume the existence of two functions
-
-read (argument list), print (argument list)
-Arguments may be variables or quoted strings. We avoid the problem
-of defining a ‘‘format’’ statement as we will need only the simplest
-form of input and output.
-
-The command stop halts execution of the currently executing proce-
-dure. Comments may appear anywhere on a line enclosed by double
-slashes, e.g.
-
-A this is a commentZ
-
-Finally, we note that multi-dimensional arrays are available with
-arbitrary integer lower and upper bounds. An n-dimensional array A with
-lower and upper bounds /!;, u; 1 S i S n may be declared by using
-the syntax declare A(I,:u,,...,1,:u,,). We have avoided introducing the
-record or structure concept. These are often useful features and when
-available they should be used. However, we will persist in building
-up a structure from the more elementary array concept. Finally, we
-emphasize that all of our variables are assumed to be of type INTEGER
-unless stated otherwise.
-
-Since most of the SPARKS programs will be read many more times
-than they will be executed, we have tried to make the code readable.
+20 Software Project Management https://abdullahsurati github. lo/bscit
+| Software development and project management life cycles
+Software development life cycle denotes the stages through which a software is.deyelopgd. In Figure 1.7, a
+software development life cycle (SDLC) is shown in terms of the sct of activitics that are undertaken during
+a typical software development project, their grouping into different phases and their sequencing. During
+the software development life cycle, starting from its conception, the developers carry out several Processes
+(or development methodologies) till the software is fully developed and deployed at the client site. A few
+examples of the development processes undertaken by the development team include requirements gathcring
+and analysis, requirements specification, architectural design, detailed design, coding and testing.
+In contrast to the software development life cycle (SDLC), the project management life cycle typically starts
+well before the software development activities start and continues for the entire duration of the SDLC, This
+aspect has schematically been shown in Figure 1.7. As’shown, during the software development life cycle,
+the software developers carry out several types of development processes. On the other hand, during the
+software project management life cycle, the software project manager carries out several project management
+processes (or project management methodologies) to perform the required software project management
+activities, A few examples of the project management processes carried out by a project manager include
+project initiation, planning, execution, monitoring, controlling, and closing. As shown in Figure 1.7, project
+life cycle’ is a more generic term and is often used to denote both software development life cycle and project
+management life cycle.
+: ~~ Software development life cycle —»! }.
+Developers
+ane :
+carries out | Project management processes
+j*———_ Project management life cycle ———>}_ |
++ Project life cycle —_— )
+At
+Figure 1.7 Project management life cycle versus software development life cycle
+The activities carried out by the developers during software development life cycle as well as the project
+management life cycle are grouped intoa number of phases. Typical sets of phases and their sequencing in the
+software development life cycle and the project management life cycle have been shown in Fi gure 1.8. As can
+be seen from Figure 1.8, the phases of the software development life cycle are requirements analysis, design,
+development, test and delivery. The different phases of the project management life cycle are initiation,
+planning, execution and closing, Further observe from Figure 1.8 that by the time the software development
+processes start, the initiation phase of the software Project management life cycle is almost complete.
+evreeermnne Project Management life Cycle em-s-sssesssssessesseeseesseepe
+Initiating phase > Planning phase Executing phase) Closing phase
+Requirements
+Se OPO |
+“rr Software development life cycle «+--+ .
+a : —/
+Ficure 1.8 Different phases of project management life cycle and software development life cycle
+https://abdullahsuratl github. lo/bsclt
+Scanned by CamScanner
