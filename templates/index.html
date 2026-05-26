@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOC Extractor</title>
+</head>
+<body>
+
+    <h1>Upload PDF</h1>
+
+    <form id="uploadForm">
+        <input type="file" id="pdfFile" accept=".pdf" />
+        <button type="submit">Extract TOC</button>
+    </form>
+
+    <script>
+        document.getElementById("uploadForm").onsubmit = async (e) => {
+            e.preventDefault();
+
+            const fileInput = document.getElementById("pdfFile");
+
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            const response = await fetch("/upload", {
+                method: "POST",
+                body: formData
+            });
+
+            const blob = await response.blob();
+
+            const url = window.URL.createObjectURL(blob);
+
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "toc_parsed.json";
+            a.click();
+        };
+    </script>
+
+</body>
+</html>

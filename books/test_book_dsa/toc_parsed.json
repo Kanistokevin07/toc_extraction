@@ -213,7 +213,7 @@
       },
       {
         "number": "4.11",
-        "title": "STRINGS-A Case Study",
+        "title": "STRINGS—A Case Study",
         "page": 182,
         "page_end": null,
         "subsections": [
@@ -378,7 +378,7 @@
           },
           {
             "number": "6.1.2",
-            "title": "Definitions and Terminology",
+            "title": "Definition and Terminology",
             "page": 283,
             "page_end": null
           },
@@ -407,14 +407,14 @@
       {
         "number": "6.4",
         "title": "Activity Networks, Topological Sort and Critical Paths",
-        "page": 310,
+        "page": 324,
         "page_end": null,
         "subsections": []
       },
       {
         "number": "6.5",
         "title": "Enumerating All Paths",
-        "page": 324,
+        "page": 327,
         "page_end": null,
         "subsections": []
       }
@@ -701,7 +701,7 @@
           },
           {
             "number": "10.2.3",
-            "title": "Tree Indexing-B-Trees",
+            "title": "Tree Indexing—B-Trees",
             "page": 496,
             "page_end": null
           },
@@ -775,22 +775,22 @@
     "sections": []
   },
   {
-    "number": "A",
-    "title": "SPARKS",
+    "number": "",
+    "title": "APPENDIX A: SPARKS",
     "page": 543,
     "page_end": null,
     "sections": []
   },
   {
-    "number": "B",
-    "title": "ETHICAL CODE IN INFORMATION PROCESSING",
+    "number": "",
+    "title": "APPENDIX B: ETHICAL CODE IN INFORMATION PROCESSING",
     "page": 553,
     "page_end": null,
     "sections": []
   },
   {
-    "number": "C",
-    "title": "ALGORITHM INDEX BY CHAPTER",
+    "number": "",
+    "title": "APPENDIX C: ALGORITHM INDEX BY CHAPTER",
     "page": 558,
     "page_end": null,
     "sections": []

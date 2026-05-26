@@ -100,6 +100,7 @@ def run_pipeline(pdf_path):
 
     print("\n✅ Done! TOC saved at:")
     print(paths["toc_json"])
+    return paths["toc_json"]
 
 
 # -------------------------------
