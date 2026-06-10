@@ -1,41 +1,202 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TOC Extractor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PDF TOC Extractor</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.drop-zone{
+    border:2px dashed #4f46e5;
+    border-radius:12px;
+    padding:40px;
+    text-align:center;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.drop-zone:hover{
+    background:#f5f3ff;
+}
+
+.drop-zone.dragover{
+    background:#ede9fe;
+}
+
+.file-name{
+    margin-top:15px;
+    text-align:center;
+    color:#555;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#4f46e5;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#4338ca;
+}
+
+.progress-container{
+    margin-top:20px;
+    display:none;
+}
+
+.progress-bar{
+    height:12px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress{
+    height:100%;
+    width:0%;
+    background:#4f46e5;
+}
+
+.status{
+    text-align:center;
+    margin-top:15px;
+}
+</style>
 </head>
+
 <body>
 
-    <h1>Upload PDF</h1>
+<div class="container">
 
-    <form id="uploadForm">
-        <input type="file" id="pdfFile" accept=".pdf" />
-        <button type="submit">Extract TOC</button>
-    </form>
+    <h1>PDF TOC Extractor</h1>
 
-    <script>
-        document.getElementById("uploadForm").onsubmit = async (e) => {
-            e.preventDefault();
+    <div class="drop-zone" id="dropZone">
+        Drag & Drop PDF Here
+        <br><br>
+        or Click to Select
+    </div>
 
-            const fileInput = document.getElementById("pdfFile");
+    <input type="file" id="pdfFile" accept=".pdf" hidden>
 
-            const formData = new FormData();
-            formData.append("file", fileInput.files[0]);
+    <div class="file-name" id="fileName"></div>
 
-            const response = await fetch("/upload", {
-                method: "POST",
-                body: formData
-            });
+    <button id="uploadBtn">Extract TOC</button>
 
-            const blob = await response.blob();
+    <div class="progress-container" id="progressContainer">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
 
-            const url = window.URL.createObjectURL(blob);
+    <div class="status" id="status"></div>
 
-            const a = document.createElement("a");
-            a.href = url;
-            a.download = "toc_parsed.json";
-            a.click();
-        };
-    </script>
+</div>
+
+<script>
+
+const dropZone = document.getElementById("dropZone");
+const fileInput = document.getElementById("pdfFile");
+const fileName = document.getElementById("fileName");
+const status = document.getElementById("status");
+
+dropZone.addEventListener("click", () => {
+    fileInput.click();
+});
+
+fileInput.addEventListener("change", () => {
+    if(fileInput.files.length){
+        fileName.innerText = fileInput.files[0].name;
+    }
+});
+
+dropZone.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dropZone.classList.add("dragover");
+});
+
+dropZone.addEventListener("dragleave", () => {
+    dropZone.classList.remove("dragover");
+});
+
+dropZone.addEventListener("drop", (e) => {
+    e.preventDefault();
+
+    dropZone.classList.remove("dragover");
+
+    if(e.dataTransfer.files.length){
+        fileInput.files = e.dataTransfer.files;
+        fileName.innerText = e.dataTransfer.files[0].name;
+    }
+});
+
+document.getElementById("uploadBtn").onclick = async () => {
+
+    if(!fileInput.files.length){
+        alert("Please select a PDF");
+        return;
+    }
+
+    status.innerText = "Processing PDF...";
+    document.getElementById("progressContainer").style.display = "block";
+
+    const formData = new FormData();
+    formData.append("file", fileInput.files[0]);
+
+    const response = await fetch("/upload",{
+        method:"POST",
+        body:formData
+    });
+
+    const blob = await response.blob();
+
+    document.getElementById("progress").style.width = "100%";
+
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "toc_parsed.json";
+    a.click();
+
+    status.innerText = "TOC extracted successfully";
+};
+
+</script>
 
 </body>
 </html>

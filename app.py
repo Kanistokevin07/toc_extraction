@@ -8,6 +8,7 @@ from fastapi.responses import HTMLResponse
 
 from pipeline import run_pipeline
 
+#uvicorn app:app --reload
 app = FastAPI()
 
 UPLOAD_DIR = "uploads"
