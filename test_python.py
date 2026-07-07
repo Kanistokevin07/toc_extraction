@@ -1,34 +1,30 @@
-"""import fitz          # pymupdf
-import pdfplumber
-import cv2
-import pytesseract
-from PIL import Image
-import easyocr
+import os
+import boto3
+from dotenv import load_dotenv
 
-# Tell pytesseract where tesseract.exe is
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+load_dotenv()
 
-print("✓ PyMuPDF     :", fitz.__version__)
-print("✓ pdfplumber  : ok")
-print("✓ OpenCV      :", cv2.__version__)
-print("✓ Pillow      : ok")
+# STS client to verify identity
+sts = boto3.client(
+    "sts",
+    region_name=os.getenv("AWS_REGION"),
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+)
 
-# Quick Tesseract check
-version = pytesseract.get_tesseract_version()
-print("✓ Tesseract   :", version)
+print(sts.get_caller_identity())
 
-# EasyOCR init (downloads model on first run ~100MB, normal)
-reader = easyocr.Reader(['en'], verbose=False)
-print("✓ EasyOCR     : ok")
+# Bedrock client
+client = boto3.client(
+    "bedrock",
+    region_name=os.getenv("AWS_REGION"),
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+)
 
-print("\nAll good — ready to build!")"""
+response = client.list_inference_profiles()
 
-
-from google import genai
-
-client = genai.Client(api_key="AIzaSyBn31hjX73-4GmUR-Fst-UgaMBldalujCM")
-
-models = client.models.list()
-
-for m in models:
-    print(m.name)
+for profile in response["inferenceProfileSummaries"]:
+    print(profile["inferenceProfileName"])
+    print(profile["inferenceProfileArn"])
+    print("-------------------------")
